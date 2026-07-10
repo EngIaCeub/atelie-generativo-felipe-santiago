@@ -1,0 +1,33 @@
+name: Tarefa de etapa
+about: Trabalho vinculado a um marco acadêmico
+labels: ["projeto"]
+body:
+  - type: dropdown
+    id: etapa
+    attributes:
+      label: Etapa
+      options: ["0 Organização", "1 Dataset", "2 LoRA", "3 Avaliação", "4 App/Space", "5 Relatório/Demo"]
+    validations:
+      required: true
+  - type: input
+    id: criterio
+    attributes:
+      label: Critério do barema
+    validations:
+      required: true
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Resultado observável
+    validations:
+      required: true
+  - type: textarea
+    id: aceite
+    attributes:
+      label: Critérios de aceite e evidências
+    validations:
+      required: true
+  - type: textarea
+    id: bloqueios
+    attributes:
+      label: Portões humanos ou bloqueios

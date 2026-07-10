@@ -1,0 +1,1 @@
+# Um prompt por linha; preencher somente após estilo/token aprovados.

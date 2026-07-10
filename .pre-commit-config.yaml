@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-secrets
+        name: Verificar segredos
+        entry: python scripts/check_secrets.py
+        language: system
+        pass_filenames: false
+      - id: ruff
+        name: Ruff
+        entry: python -m ruff check scripts app tests
+        language: system
+        pass_filenames: false

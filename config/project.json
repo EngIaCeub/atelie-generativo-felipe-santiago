@@ -1,0 +1,60 @@
+{
+  "project_name": "atelie-generativo-felipe-santiago",
+  "repository_owner": "Felipe Santiago",
+  "team": {
+    "name": "Felipe Santiago",
+    "members": [
+      "Felipe Santiago"
+    ],
+    "roles_confirmed": false
+  },
+  "style": {
+    "name": "",
+    "trigger_token": "",
+    "description": "",
+    "planned_sources": [],
+    "approval_status": "pending"
+  },
+  "hugging_face": {
+    "token_status": "available_not_versioned",
+    "namespace": "",
+    "lora_repo_id": "",
+    "space_repo_id": ""
+  },
+  "models": {
+    "base_diffusion": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "captioning": "Salesforce/blip-image-captioning-base",
+    "clip": "openai/clip-vit-base-patch16",
+    "prompt_expander": "Qwen/Qwen2.5-0.5B-Instruct",
+    "tts": ""
+  },
+  "training": {
+    "seed": 1337,
+    "resolution": 512,
+    "configs": [
+      {
+        "name": "config_a",
+        "rank": 4,
+        "learning_rate": 0.0001,
+        "max_train_steps": 1000
+      },
+      {
+        "name": "config_b",
+        "rank": 8,
+        "learning_rate": 5e-05,
+        "max_train_steps": 1500
+      }
+    ]
+  },
+  "evaluation": {
+    "generation_seed": 2026,
+    "fixed_prompts_file": "dados/prompts_avaliacao.txt",
+    "minimum_external_raters": 5
+  },
+  "publication": {
+    "image_backend": "undecided",
+    "prompt_backend": "undecided",
+    "tts_backend": "undecided",
+    "space_hardware": "cpu-basic"
+  }
+}

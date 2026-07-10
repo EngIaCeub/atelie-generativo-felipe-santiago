@@ -1,0 +1,26 @@
+name: Bug ou falha de execução
+about: Registrar erro reproduzível
+labels: ["bug"]
+body:
+  - type: textarea
+    id: comportamento
+    attributes:
+      label: Comportamento observado
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+    validations:
+      required: true
+  - type: textarea
+    id: ambiente
+    attributes:
+      label: Ambiente, commit e versões
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs sem segredos

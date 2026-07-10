@@ -1,0 +1,10 @@
+gradio
+huggingface_hub
+transformers
+diffusers
+accelerate
+torch
+safetensors
+numpy
+Pillow
+soundfile
