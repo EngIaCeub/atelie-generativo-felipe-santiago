@@ -1,0 +1,182 @@
+{
+  "summary": {
+    "style": "Xilogravura Digital do Cerrado",
+    "trigger_token": "flpxilobr",
+    "source_count": 24,
+    "approved_count": 24,
+    "rejected_or_pending_count": 0,
+    "near_duplicate_pairs": [],
+    "caption_method": "inspecao visual e metadados; revisao humana",
+    "blip": "nao executado localmente: torch e transformers indisponiveis"
+  },
+  "items": [
+    {
+      "arquivo": "img_001.png",
+      "arquivo_final": "dados/imagens/img_001.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, frutos de araticum do brejo em vegetacao do Cerrado, com contornos pretos marcantes e hachuras artesanais"
+    },
+    {
+      "arquivo": "img_002.png",
+      "arquivo_final": "dados/imagens/img_002.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, arvore tortuosa de casca grossa tipica do Cerrado, renderizada em alto contraste com textura de xilogravura"
+    },
+    {
+      "arquivo": "img_003.png",
+      "arquivo_final": "dados/imagens/img_003.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, queda d'agua entre rochas e mata de Cerrado, em composicao preta e marfim com hachuras densas"
+    },
+    {
+      "arquivo": "img_004.png",
+      "arquivo_final": "dados/imagens/img_004.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, cachos de buriti e folhas de palmeira do Tocantins, simplificados em linguagem grafica de xilogravura digital"
+    },
+    {
+      "arquivo": "img_005.png",
+      "arquivo_final": "dados/imagens/img_005.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, bromelia nativa com folhas radiais e centro escuro, desenhada com contrastes fortes e cortes artesanais"
+    },
+    {
+      "arquivo": "img_006.png",
+      "arquivo_final": "dados/imagens/img_006.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, beija-flor pousado em ramo fino, com corpo claro, fundo hachurado e linhas pretas expressivas"
+    },
+    {
+      "arquivo": "img_007.png",
+      "arquivo_final": "dados/imagens/img_007.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, bacurau camuflado sobre tronco e folhas, representado com texturas de entalhe e sombras de alto contraste"
+    },
+    {
+      "arquivo": "img_008.png",
+      "arquivo_final": "dados/imagens/img_008.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, galhos secos e copa de arvore do Cerrado contra fundo claro, com linhas irregulares e hachuras cruzadas"
+    },
+    {
+      "arquivo": "img_009.png",
+      "arquivo_final": "dados/imagens/img_009.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, cacho de flores de Byrsonima entre folhas, transformado em padrao grafico preto e marfim"
+    },
+    {
+      "arquivo": "img_010.png",
+      "arquivo_final": "dados/imagens/img_010.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, flor clara isolada sobre fundo escuro, com petalas simplificadas e textura manual de xilogravura"
+    },
+    {
+      "arquivo": "img_011.png",
+      "arquivo_final": "dados/imagens/img_011.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, aracari pousado entre galhos finos, com silhueta recortada e hachuras leves no fundo"
+    },
+    {
+      "arquivo": "img_012.png",
+      "arquivo_final": "dados/imagens/img_012.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, flor aberta com inseto polinizador, em composicao de alto contraste e contornos pretos evidentes"
+    },
+    {
+      "arquivo": "img_013.png",
+      "arquivo_final": "dados/imagens/img_013.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, botoes e ramos florais do Cerrado, com folhas e galhos gravados em hachuras densas"
+    },
+    {
+      "arquivo": "img_014.png",
+      "arquivo_final": "dados/imagens/img_014.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, martim-pescador sobre galho, retratado em silhueta escura e fundo claro texturizado"
+    },
+    {
+      "arquivo": "img_015.png",
+      "arquivo_final": "dados/imagens/img_015.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, inflorescencia de chapeu-de-couro entre folhas do Cerrado, com contraste severo e textura entalhada"
+    },
+    {
+      "arquivo": "img_016.png",
+      "arquivo_final": "dados/imagens/img_016.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, anoitecer nos Pireneus com arvores retorcidas em silhueta, traduzido para preto e marfim"
+    },
+    {
+      "arquivo": "img_017.png",
+      "arquivo_final": "dados/imagens/img_017.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, vale do Rio Areias no Cerrado ao amanhecer, com horizonte baixo, ceu texturizado e massas escuras de vegetacao"
+    },
+    {
+      "arquivo": "img_018.png",
+      "arquivo_final": "dados/imagens/img_018.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, anfibio em ambiente aquatico do Cerrado, representado com corpo hachurado e fundo organico escuro"
+    },
+    {
+      "arquivo": "img_019.png",
+      "arquivo_final": "dados/imagens/img_019.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, vegetacao arbustiva de Allamanda no Cerrado, com ramos, flores e folhas em gravura de alto contraste"
+    },
+    {
+      "arquivo": "img_020.png",
+      "arquivo_final": "dados/imagens/img_020.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, ave de rapina ou coruja pousada em galho, com olhos destacados e fundo claro em linguagem de xilogravura"
+    },
+    {
+      "arquivo": "img_021.png",
+      "arquivo_final": "dados/imagens/img_021.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, flor grande da flora do Cerrado em primeiro plano, com petalas claras, centro texturizado e folhas escuras"
+    },
+    {
+      "arquivo": "img_022.png",
+      "arquivo_final": "dados/imagens/img_022.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, ramo fino com folhas pequenas da vegetacao do Cerrado, desenhado com contornos pretos e hachuras diagonais"
+    },
+    {
+      "arquivo": "img_023.png",
+      "arquivo_final": "dados/imagens/img_023.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, paisagem aberta da Chapada dos Veadeiros com campo, vegetacao e horizonte, em textura de gravura"
+    },
+    {
+      "arquivo": "img_024.png",
+      "arquivo_final": "dados/imagens/img_024.png",
+      "approved": true,
+      "reasons": [],
+      "caption": "flpxilobr, cachoeira de Sao Bento com agua, rochas e mata ao redor, em composicao xilografica de preto e marfim"
+    }
+  ]
+}

@@ -53,6 +53,23 @@ gerar derivações locais em preto e marfim com hachuras determinísticas.
 **Motivo:** as páginas de arquivo fornecem URL verificável, autoria, licença e dimensões; o processamento
 local aproxima as fontes aprovadas do estilo sem imitar artista vivo.
 
+## ADR-010 - Transparencia sobre arquivos finais derivados
+**Status:** aceita.
+**Decisao:** registrar os PNGs finais como derivacoes deterministicas de fontes licenciadas, com arquivo
+final, origem, licenca original/derivada, ferramenta, ausencia de IA generativa e evidencia local por
+item em `dados/fontes.csv` e na auditoria de origem final.
+**Motivo:** as fontes originais nao foram coletadas ja no estilo escolhido. O processamento `woodcut-v2`
+usa Pillow, sem modelo ou prompt generativo; trata-lo como simples coleta no estilo, ou como sintese por
+IA, seria impreciso. A aprovacao de curadoria e captions continua exclusivamente humana.
+
+## ADR-011 - Fechamento local do dataset apos revisao humana
+**Status:** aceita.
+**Decisao:** exportar `dados/metadata.jsonl` apenas depois da confirmacao humana de Felipe Santiago sobre a
+revisao das captions e da auditoria final aprovar cada PNG final, fonte, licenca, triagem, hash e caption.
+**Motivo:** manter o contrato dataset -> treino verificavel. BLIP nao foi executado no runtime local por
+ausencia de `torch` e `transformers`; as captions derivam de inspecao visual/metadados e foram revisadas
+por humano antes da exportacao.
+
 ## Pendências de decisão
 - TTS final com português adequado e custo zero.
 - Estratégia de inferência de imagem no Space.

@@ -1,6 +1,6 @@
 # Estado do projeto
 
-Atualizado em: 2026-07-10
+Atualizado em: 2026-07-11
 
 ## Resumo
 - Repositório GitHub: **criado**.
@@ -8,19 +8,17 @@ Atualizado em: 2026-07-10
 - Arquitetura Codex: **aplicada localmente; bootstrap validado**.
 - Estilo aprovado confirmado pelo responsável humano Felipe Santiago em 2026-07-10:
   **Xilogravura Digital do Cerrado**.
-- Etapa acadêmica atual: **Etapa 1 - curadoria do dataset**, parada no portão humano de revisão das
-  captions.
+- Dataset: **validado localmente**, com 24 imagens e 24 captions revisadas por Felipe Santiago.
+- Etapa acadêmica atual: **Etapa 2 - preparo para treino LoRA**; nenhum treino foi iniciado.
 
 ## Bloqueios atuais
-1. Revisão humana das captions em `dados/legendas.txt`; todas permanecem com status `rascunho`.
-2. `dados/metadata.jsonl` deve permanecer vazio até que as captions sejam revisadas e marcadas
-   humanamente como `revisada`.
-3. Treino LoRA só deve começar após validação do dataset com captions revisadas e metadata consistente.
+1. Autorização humana para disponibilizar `HF_TOKEN` apenas no ambiente de treino/Colab, sem expor o
+   valor no chat ou repositório.
+2. Decidir quando iniciar o treino LoRA; o dataset validado não autoriza por si só execução remota.
 
 ## Próximo marco
-Portão humano: revisar as 24 captions preliminares, corrigir linguagem/conteúdo se necessário e só então
-alterar o status de cada linha de `rascunho` para `revisada`. Depois disso, gerar `dados/metadata.jsonl` e
-rodar `python scripts/validate_project.py --stage dataset`.
+Próximo estágio: planejamento e execução do treino LoRA, após o responsável disponibilizar o token apenas
+no ambiente autorizado e autorizar o início do treino. Nenhum token deve ser enviado ao chat.
 
 ## Checklist macro
 - [x] Repositório criado.
@@ -28,7 +26,7 @@ rodar `python scripts/validate_project.py --stage dataset`.
 - [x] Estrutura Codex aplicada localmente.
 - [x] Bootstrap validado após confirmação humana de equipe, estilo e namespace.
 - [x] Proposta de estilo aprovada e registrada sem inventar professor, canal ou comprovante.
-- [ ] Dataset completo e captions revisadas.
+- [x] Dataset completo, captions revisadas e metadata validado.
 - [ ] Duas configurações LoRA treinadas e comparadas.
 - [ ] LoRA escolhido publicado com model card.
 - [ ] Avaliação completa com evidências.
@@ -42,6 +40,18 @@ rodar `python scripts/validate_project.py --stage dataset`.
 - `resultados/auditorias/dataset_contato_2026-07-10.png`
 - `resultados/auditorias/dataset_triagem_2026-07-10.csv`
 - `resultados/auditorias/dataset_2026-07-10.md`
+- `resultados/auditorias/dataset_origem_final_2026-07-10.md`
+- `resultados/auditorias/dataset_origem_final_2026-07-10.csv`
+- `resultados/auditorias/dataset_validacao_final_2026-07-11.json`
+- `resultados/auditorias/dataset_final_2026-07-11.md`
+
+## Auditoria de origem final do dataset
+- Os 24 PNGs finais foram classificados como derivacoes/editadas de fontes CC-BY-SA, e nao como
+  fotografias coletadas ja no estilo visual.
+- A transformacao documentada e deterministica, executada localmente com Pillow (`woodcut-v2`), sem
+  modelo generativo ou prompt de transformacao. A proveniencia ampliada esta em `dados/fontes.csv`.
+- A revisão humana das captions foi confirmada por Felipe Santiago e o dataset foi validado com 24 pares;
+  `dados/metadata.jsonl` possui 24 registros. Não houve avanço para treino.
 
 ## Regra de atualização
 O agente deve atualizar este arquivo ao fim de cada tarefa relevante. Não marque itens executivos ou

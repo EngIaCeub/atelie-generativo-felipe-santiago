@@ -21,7 +21,27 @@ from PIL import Image, ImageDraw, ImageFilter, ImageOps, PngImagePlugin, Unident
 USER_AGENT = "AtelieGenerativoDatasetCurator/1.0 (academic project)"
 PROCESSING_VERSION = "woodcut-v2"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
-SOURCE_FIELDS = ["arquivo", "url", "autor", "licenca", "data_coleta", "fonte", "observacoes"]
+SOURCE_FIELDS = [
+    "arquivo",
+    "url",
+    "autor",
+    "licenca",
+    "data_coleta",
+    "fonte",
+    "arquivo_final",
+    "origem_tipo",
+    "url_origem",
+    "autor_original",
+    "licenca_original",
+    "transformacao_ia",
+    "ferramenta_modelo",
+    "prompt_transformacao",
+    "data_transformacao",
+    "responsavel_transformacao",
+    "licenca_derivada",
+    "status_curadoria",
+    "observacoes",
+]
 UNKNOWN_AUTHOR_MARKERS = ("unknown", "anonymous", "no machine-readable", "desconhecid")
 
 
@@ -486,6 +506,18 @@ def main() -> int:
                 "licenca": source["source_license"],
                 "data_coleta": args.date,
                 "fonte": str(selection["source"]),
+                "arquivo_final": f"dados/imagens/{filename}",
+                "origem_tipo": "derivada_editada_deterministica_sem_ia_generativa",
+                "url_origem": source["source_page_url"],
+                "autor_original": source["source_author"],
+                "licenca_original": source["source_license"],
+                "transformacao_ia": "nao; processamento deterministico",
+                "ferramenta_modelo": "Python Pillow; scripts/collect_dataset.py; woodcut-v2",
+                "prompt_transformacao": "nao aplicavel; nenhum modelo generativo ou prompt foi usado",
+                "data_transformacao": args.date,
+                "responsavel_transformacao": "processo automatizado local; responsavel humano a confirmar",
+                "licenca_derivada": source["source_license"],
+                "status_curadoria": "pendente_validacao_humana",
                 "observacoes": (
                     "Derivação técnica local em preto e marfim, com recorte, contraste e "
                     "hachuras; distribuída sob a mesma licença da fonte; metadados verificados "

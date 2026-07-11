@@ -40,6 +40,9 @@ Fora de escopo: declarar autoria não documentada, aceitar licença ambígua, ma
 - [x] Marco 4 - gerar captions preliminares com o token e status `rascunho`.
 - [x] Marco 5 - validar proveniência, resolução, licenças e segurança.
 - [x] Marco 6 - registrar o portão de revisão humana sem gerar metadata de treino.
+- [x] Marco 7 - auditar a origem dos arquivos finais e distinguir derivacao deterministica de imagem
+  coletada ou IA generativa.
+- [x] Marco 8 - registrar a revisao humana, validar 24 pares e exportar metadata somente apos aprovacao.
 
 ## Evidências produzidas
 
@@ -49,6 +52,28 @@ Fora de escopo: declarar autoria não documentada, aceitar licença ambígua, ma
 - `resultados/auditorias/dataset_contato_2026-07-10.png`.
 - `resultados/auditorias/dataset_triagem_2026-07-10.csv`.
 - `resultados/auditorias/dataset_2026-07-10.md`.
+- `resultados/auditorias/dataset_origem_final_2026-07-10.md` e
+  `resultados/auditorias/dataset_origem_final_2026-07-10.csv`.
+
+## Progresso e descobertas
+
+Em 2026-07-10, uma auditoria posterior confirmou que os 24 PNGs finais nao sao imagens coletadas ja no
+estilo nem imagens geradas por IA. Sao derivacoes deterministicas das fontes CC-BY-SA, produzidas por
+`scripts/collect_dataset.py` com Pillow (`woodcut-v2`). `dados/fontes.csv` foi ampliado para descrever os
+arquivos finais, as fontes originais, a licenca derivada e o estado pendente de validacao humana. As
+captions permanecem em `rascunho` e `metadata.jsonl` nao foi gerado.
+
+Em 2026-07-11, Felipe Santiago confirmou a revisao humana das 24 captions. O status foi normalizado de
+`revisado` para `revisada`, preservando os textos. `scripts/finalize_dataset.py` aprovou os 24 pares e
+gerou `dados/metadata.jsonl` com 24 registros; BLIP permaneceu nao executado porque o runtime local nao
+tinha `torch` nem `transformers`.
+
+## Resultado final
+
+Etapa dataset validada localmente: 24 imagens finais licenciadas e derivadas de forma deterministica, 24
+captions revisadas e 24 registros de metadata. Nenhum item foi rejeitado ou ficou pendente. O proximo
+portao humano e a autorizacao para disponibilizar `HF_TOKEN` somente no ambiente de treino antes de iniciar
+a etapa LoRA.
 
 ## Testes e comandos
 

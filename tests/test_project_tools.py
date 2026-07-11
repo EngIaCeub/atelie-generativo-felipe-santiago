@@ -117,6 +117,19 @@ def dataset_checks_by_key(root: Path) -> dict[str, bool]:
     return {check.key: check.ok for check in dataset_checks(root, config)}
 
 
+def test_dataset_status_accepts_utf8_bom_in_caption_header(tmp_path: Path) -> None:
+    write_dataset_fixture(tmp_path)
+    captions_path = tmp_path / "dados" / "legendas.txt"
+    captions_path.write_text(
+        captions_path.read_text(encoding="utf-8").replace("\trascunho", "\trevisada"),
+        encoding="utf-8-sig",
+    )
+
+    checks = dataset_checks_by_key(tmp_path)
+
+    assert checks["captions_reviewed"] is True
+
+
 def test_dataset_status_validates_provenance_licenses_and_resolution(tmp_path: Path) -> None:
     write_dataset_fixture(tmp_path)
 
