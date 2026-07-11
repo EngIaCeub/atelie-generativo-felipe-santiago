@@ -44,3 +44,5 @@ relatorio/build/
 # Dados temporários/rascunhos; imagens finais licenciadas em dados/imagens podem ser versionadas
 dados/rascunhos/
 dados/cache/
+dados/imagens/.curation-cache/
+dados/imagens/dataset-*/

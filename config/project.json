@@ -6,20 +6,44 @@
     "members": [
       "Felipe Santiago"
     ],
-    "roles_confirmed": false
+    "assignments": {
+      "dados_e_licencas": "Felipe Santiago",
+      "treinamento_lora": "Felipe Santiago",
+      "avaliacao": "Felipe Santiago",
+      "aplicacao_e_publicacao": "Felipe Santiago",
+      "documentacao": "Felipe Santiago"
+    },
+    "roles_confirmed": true
   },
   "style": {
-    "name": "",
-    "trigger_token": "",
-    "description": "",
-    "planned_sources": [],
-    "approval_status": "pending"
+    "name": "Xilogravura Digital do Cerrado",
+    "trigger_token": "flpxilobr",
+    "description": "Estilo de ilustração digital inspirado nas características visuais gerais da xilogravura brasileira, com contornos pretos marcantes, alto contraste, hachuras artesanais, formas simplificadas e paleta reduzida, aplicado a animais, plantas, paisagens, objetos e cenas cotidianas relacionadas ao Cerrado brasileiro, sem imitar artista vivo identificável.",
+    "planned_sources": [
+      "Imagens autorais produzidas para o projeto",
+      "Imagens com licença aberta verificável",
+      "Imagens sintéticas produzidas especificamente para o projeto"
+    ],
+    "allowed_licenses": [
+      "Autoria própria",
+      "Domínio público",
+      "CC0",
+      "CC-BY",
+      "CC-BY-SA"
+    ],
+    "approval_status": "approved",
+    "approval_confirmation": {
+      "confirmed_by_responsible": "Felipe Santiago",
+      "confirmed_on": "2026-07-10",
+      "statement": "A aprovação do professor foi confirmada pelo responsável humano do projeto.",
+      "local_evidence_file": null
+    }
   },
   "hugging_face": {
     "token_status": "available_not_versioned",
-    "namespace": "",
-    "lora_repo_id": "",
-    "space_repo_id": ""
+    "namespace": "RalphError",
+    "lora_repo_id": "RalphError/flpxilobr-lora",
+    "space_repo_id": "RalphError/atelie-xilogravura-cerrado"
   },
   "models": {
     "base_diffusion": "stable-diffusion-v1-5/stable-diffusion-v1-5",

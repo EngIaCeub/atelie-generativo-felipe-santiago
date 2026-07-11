@@ -3,8 +3,15 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from PIL import Image
+
 from scripts.check_secrets import scan
-from scripts.project_status import REQUIRED_TEAM_ASSIGNMENTS, bootstrap_checks, collect
+from scripts.project_status import (
+    REQUIRED_TEAM_ASSIGNMENTS,
+    bootstrap_checks,
+    collect,
+    dataset_checks,
+)
 
 
 def test_scaffold_has_no_secret_patterns() -> None:
@@ -76,3 +83,57 @@ def test_bootstrap_rejects_assignees_not_listed_as_members() -> None:
 
     assert checks["team_required_roles"] is True
     assert checks["team_assignment_members"] is False
+
+
+def write_dataset_fixture(root: Path, *, license_value: str = "CC-BY-SA 4.0", size: int = 512) -> None:
+    images_dir = root / "dados" / "imagens"
+    images_dir.mkdir(parents=True)
+    sources_path = root / "dados" / "fontes.csv"
+    captions_path = root / "dados" / "legendas.txt"
+    sources_path.write_text(
+        "arquivo,url,autor,licenca,data_coleta,fonte,observacoes\n"
+        + "\n".join(
+            f"img_{index:03}.png,https://commons.wikimedia.org/wiki/File:Teste_{index}.png,"
+            f"Autor {index},{license_value},2026-07-10,Wikimedia Commons,metadados verificados"
+            for index in range(1, 21)
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    captions_path.write_text(
+        "\n".join(
+            f"img_{index:03}.png\tflpxilobr, caption de teste\t" "rascunho"
+            for index in range(1, 21)
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    for index in range(1, 21):
+        Image.new("RGB", (size, size), (246, 240, 222)).save(images_dir / f"img_{index:03}.png")
+
+
+def dataset_checks_by_key(root: Path) -> dict[str, bool]:
+    config = {"style": {"trigger_token": "flpxilobr"}}
+    return {check.key: check.ok for check in dataset_checks(root, config)}
+
+
+def test_dataset_status_validates_provenance_licenses_and_resolution(tmp_path: Path) -> None:
+    write_dataset_fixture(tmp_path)
+
+    checks = dataset_checks_by_key(tmp_path)
+
+    assert checks["image_count"] is True
+    assert checks["provenance_count"] is True
+    assert checks["provenance_fields"] is True
+    assert checks["allowed_licenses"] is True
+    assert checks["image_resolution"] is True
+    assert checks["captions_reviewed"] is False
+
+
+def test_dataset_status_rejects_bad_license_and_small_images(tmp_path: Path) -> None:
+    write_dataset_fixture(tmp_path, license_value="All rights reserved", size=511)
+
+    checks = dataset_checks_by_key(tmp_path)
+
+    assert checks["allowed_licenses"] is False
+    assert checks["image_resolution"] is False

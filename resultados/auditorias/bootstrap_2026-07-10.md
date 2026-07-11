@@ -35,3 +35,16 @@ real.
 - `scripts/validate_project.py` foi ajustado para funcionar quando chamado diretamente como no runbook.
 - A validacao formal de bootstrap ainda deve falhar ate que as pendencias humanas sejam preenchidas.
 - `pytest` e `ruff` nao estao disponiveis no Python empacotado nem na `.venv` local atual.
+
+## Atualizacao posterior no mesmo dia
+- Felipe Santiago confirmou em 2026-07-10 que o professor aprovou o estilo visual do projeto.
+- Estilo registrado: `Xilogravura Digital do Cerrado`.
+- Trigger token registrado: `flpxilobr`.
+- Equipe registrada: Felipe Santiago, com todos os papeis obrigatorios atribuidos a ele e
+  `team.roles_confirmed: true`.
+- Hugging Face registrado como planejamento: namespace `RalphError`, LoRA `RalphError/flpxilobr-lora` e
+  Space `RalphError/atelie-xilogravura-cerrado`.
+- Nenhum nome de professor, canal de aprovacao, URL ou comprovante foi inventado; nao havia comprovante
+  local a referenciar.
+- `scripts/project_status.py` foi atualizado para validar papeis obrigatorios da equipe no bootstrap.
+- Resultado observado apos a atualizacao: `scripts/validate_project.py --stage bootstrap` aprovou.

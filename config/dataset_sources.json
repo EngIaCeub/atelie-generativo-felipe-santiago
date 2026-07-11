@@ -1,0 +1,127 @@
+{
+  "source": "Wikimedia Commons",
+  "api_url": "https://commons.wikimedia.org/w/api.php",
+  "output_size": 768,
+  "items": [
+    {
+      "filename": "img_001.png",
+      "title": "File:Araticum-do-brejo.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_002.png",
+      "title": "File:Arvore tipica do cerrado de tronco torto e grossa cortica.png",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_003.png",
+      "title": "File:Almecegas I Cachoeira em Branco e Preto.png",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_004.png",
+      "title": "File:Buriti, no estado do Tocantins..jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_005.png",
+      "title": "File:Bromélia nativa do Tocantins..jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_006.png",
+      "title": "File:Beija Flor tesoura verde.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_007.png",
+      "title": "File:Bacurau (Hydropsalis albicollis).jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_008.png",
+      "title": "File:Barriguda.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_009.png",
+      "title": "File:Byrsonima sp.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_010.png",
+      "title": "File:Alto paraíso do Goiás.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_011.png",
+      "title": "File:\"Araçari-castanho\" - Pteroglossus castanotis 01.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_012.png",
+      "title": "File:\"abelha-cachorro\" - Trigona spinipes - em flor de \"açoita-cavalo-graúdo\" Luehea grandiflora Mart. & Zucc. (Malvaceae) 01.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_013.png",
+      "title": "File:Botões florais de \"açoita-cavalo-graúdo\" Luehea grandiflora Mart. & Zucc. (Malvaceae) 04.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_014.png",
+      "title": "File:\"Martim-pescador-pequeno\" fêmea - em vereda - Santa Helena de Goiás 01.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_015.png",
+      "title": "File:\"chapéu-de-couro\" - Salvertia convallariodora A.St.-Hil. - Vochysiaceae 01.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_016.png",
+      "title": "File:Anoitecer nos Pireneus (Pirenópolis, GO).jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_017.png",
+      "title": "File:Brazilian Savanna - Valley of the Areias River Cerrado - Vale do Rio Areias (50836988912).jpg",
+      "centering": [0.5, 0.72]
+    },
+    {
+      "filename": "img_018.png",
+      "title": "File:Brazil Brasil - Tocantins - Cavalcante - Anfíbio - Bokermannohyla pseudopseudis (9178438917).jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_019.png",
+      "title": "File:Allamanda angustifolia Pohl Polilana cerrado Pirenopolis janeiro 2024 01.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_020.png",
+      "title": "File:Fauna do cerrado.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_021.png",
+      "title": "File:Flora do Cerrado.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_022.png",
+      "title": "File:Vegetação cerrado.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_023.png",
+      "title": "File:Cerrado landscape.jpg",
+      "centering": [0.5, 0.5]
+    },
+    {
+      "filename": "img_024.png",
+      "title": "File:Cachoeira de São Bento.jpg",
+      "centering": [0.5, 0.5]
+    }
+  ]
+}

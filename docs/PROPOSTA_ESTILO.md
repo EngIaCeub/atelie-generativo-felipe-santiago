@@ -1,37 +1,70 @@
 # Proposta de estilo visual
 
-Status: pendente de decisao humana e aprovacao do professor.
+**Status:** aprovado  
+**Responsável:** Felipe Santiago  
+**Data de confirmação:** 2026-07-10
 
 ## Nome do estilo
-Pendente.
+
+Xilogravura Digital do Cerrado
 
 ## Token textual exclusivo
-Pendente. Deve ser curto, unico e usado no inicio de toda caption revisada.
 
-## Descricao visual e criterios de coerencia
-Pendente. Descrever elementos visuais recorrentes, paleta, composicao, materiais, iluminacao e o que
-deve ser considerado fora do estilo.
+`flpxilobr`
 
-## Por que o estilo e permitido
-Pendente. Confirmar que o estilo nao imita artista vivo identificavel, personagem ou propriedade
-intelectual de terceiros.
+## Descrição visual
 
-## Fontes planejadas de imagens
-Pendente. Listar fontes verificaveis antes da coleta e registrar licencas aceitas em `dados/fontes.csv`.
+Estilo de ilustração digital inspirado nas características visuais gerais da xilogravura brasileira,
+com contornos pretos marcantes, alto contraste, hachuras artesanais, formas simplificadas e paleta
+reduzida. O estilo é aplicado a animais, plantas, paisagens, objetos e cenas cotidianas relacionadas ao
+Cerrado brasileiro, sem imitar artista vivo identificável.
 
-## Licencas esperadas
-Permitidas pelo projeto: dominio publico, CC0, CC-BY, CC-BY-SA ou autoria da equipe.
+## Critérios de coerência
 
-## Riscos eticos e mitigacao
-Pendente. Confirmar ausencia de pessoa real identificavel sem consentimento e ausencia de conteudo
-violento, sexual ou difamatorio.
+- Contornos pretos marcantes e legíveis.
+- Contraste forte entre áreas claras e escuras.
+- Hachuras com aparência artesanal, sem reproduzir a assinatura visual de um artista específico.
+- Formas simplificadas e silhuetas reconhecíveis.
+- Paleta reduzida, com predominância de preto e tons claros e uso restrito de cor.
+- Temas ligados ao Cerrado brasileiro: fauna, flora, paisagens, objetos e cotidiano.
+- Ausência de marcas-d'água, assinaturas problemáticas, personagens protegidos e pessoas reais
+  identificáveis sem consentimento.
 
-## Responsaveis
-Pendente de confirmacao em `config/project.json`.
+## Justificativa ética e autoral
 
-## Data de submissao
-Pendente.
+A proposta usa características gerais de uma linguagem gráfica tradicional e não busca reproduzir a
+obra, a assinatura ou o estilo individual de artista vivo identificável. Cada imagem deverá ter autoria,
+origem e licença verificáveis. Material com direitos incertos, propriedade intelectual de terceiros ou
+pessoa identificável sem consentimento será rejeitado.
 
-## Aprovacao do professor
-Pendente. Registrar `config.project.style.approval_status = "approved"` somente apos confirmacao
-verificavel.
+## Fontes planejadas
+
+- Imagens autorais produzidas para o projeto.
+- Imagens com licença aberta verificável.
+- Imagens sintéticas produzidas especificamente para o projeto, incluídas somente quando a origem e os
+  termos de uso puderem ser registrados de forma verificável.
+
+## Licenças permitidas
+
+- Autoria própria comprovada.
+- Domínio público.
+- CC0.
+- CC-BY.
+- CC-BY-SA.
+
+## Riscos e mitigações
+
+- **Licença ou autoria ambígua:** excluir o item até que a fonte possa ser verificada.
+- **Imitação de artista vivo:** avaliar atributos visuais gerais e rejeitar referências a artistas
+  identificáveis.
+- **Incoerência visual:** aplicar os critérios acima durante a triagem e documentar rejeições.
+- **Conteúdo protegido ou identificação indevida:** rejeitar personagens, marcas, assinaturas e pessoas
+  reais identificáveis sem consentimento.
+- **Representação estereotipada do Cerrado:** privilegiar elementos verificáveis da fauna, flora,
+  paisagem e cotidiano, registrando limitações do recorte.
+
+## Aprovação do professor
+
+O responsável humano do projeto, Felipe Santiago, confirmou em 2026-07-10 que o professor aprovou este
+estilo visual. O nome do professor, o canal de aprovação e um documento comprobatório local não foram
+informados; nenhum desses dados é inferido neste registro.

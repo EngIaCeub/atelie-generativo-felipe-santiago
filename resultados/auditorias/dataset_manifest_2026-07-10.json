@@ -1,0 +1,1038 @@
+{
+  "generated_at": "2026-07-10T23:55:08+00:00",
+  "collection_date": "2026-07-10",
+  "source": "Wikimedia Commons",
+  "api_url": "https://commons.wikimedia.org/w/api.php",
+  "selection_file": "config/dataset_sources.json",
+  "processing": {
+    "script": "scripts/collect_dataset.py",
+    "version": "woodcut-v2",
+    "output_size": [
+      768,
+      768
+    ],
+    "palette": [
+      "#121210",
+      "#F6F0DE"
+    ],
+    "operations": [
+      "center_crop",
+      "grayscale",
+      "autocontrast",
+      "tone_threshold",
+      "diagonal_hatching",
+      "edge_emphasis"
+    ]
+  },
+  "near_duplicate_pairs": [],
+  "items": [
+    {
+      "arquivo": "img_001.png",
+      "source_title": "File:Araticum-do-brejo.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Araticum-do-brejo.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Araticum-do-brejo.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Araticum-do-brejo.jpg/1280px-Araticum-do-brejo.jpg",
+      "source_author": "Rapper Ouriço",
+      "source_license": "CC-BY-SA 3.0",
+      "source_license_label": "CC BY-SA 3.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Araticum no cerrado de Cascavel, Ceará",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        1600,
+        1200
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "262d27ec15cde47effd610842baf7bf8d262227b",
+      "source_page_revision": 800536684,
+      "processing_source_sha256": "337a907af954317dfa11c955bdc21021e639609fb7d35b93094cc65a5e82098f",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "483c642d4b0f4bf9a80046d30ba4e8581b58d1dba638101bd4ab106f3f6d5816",
+      "output_dhash": "0bcdd65d48bcb0db",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_002.png",
+      "source_title": "File:Arvore tipica do cerrado de tronco torto e grossa cortica.png",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Arvore_tipica_do_cerrado_de_tronco_torto_e_grossa_cortica.png",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Arvore_tipica_do_cerrado_de_tronco_torto_e_grossa_cortica.png",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Arvore_tipica_do_cerrado_de_tronco_torto_e_grossa_cortica.png/1280px-Arvore_tipica_do_cerrado_de_tronco_torto_e_grossa_cortica.png",
+      "source_author": "Lauro Sirgado",
+      "source_license": "CC-BY-SA 3.0",
+      "source_license_label": "CC BY-SA 3.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Árvore típica do cerrado de tronco torto e recoberto de grossa cortiça - Bonito MS, (2013)",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        2193,
+        5985
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        2795
+      ],
+      "source_mime": "image/png",
+      "source_mediawiki_sha1": "bd989041d79ddb3dee16c84d3e980b1c0b3f4f3d",
+      "source_page_revision": 1233998894,
+      "processing_source_sha256": "9611868bacad36fb257f3a034f29f031461d896b2a69c7f08b448c0a4892b84b",
+      "processing_source_dimensions": [
+        1280,
+        3493
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "171efa4b393df5baaed79d88caccf88f71b6eadf1256213031124c1e18e9c0c3",
+      "output_dhash": "8346465663655d4c",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_003.png",
+      "source_title": "File:Almecegas I Cachoeira em Branco e Preto.png",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Almecegas_I_Cachoeira_em_Branco_e_Preto.png",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Almecegas_I_Cachoeira_em_Branco_e_Preto.png",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Almecegas_I_Cachoeira_em_Branco_e_Preto.png/1280px-Almecegas_I_Cachoeira_em_Branco_e_Preto.png",
+      "source_author": "Lauro Sirgado",
+      "source_license": "CC-BY-SA 3.0",
+      "source_license_label": "CC BY-SA 3.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Almécegas I Cachoeira em Branco e Preto - Chapada dos Veadeiros GO, (2012)",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        1507,
+        2236
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        1519
+      ],
+      "source_mime": "image/png",
+      "source_mediawiki_sha1": "f3c1a96d375bdf19cdc22e046c0d66ca1375ad30",
+      "source_page_revision": 1233986747,
+      "processing_source_sha256": "b9f06f4e0dd6c2f11ac6fe9e065ba5740ba163a53f06d13e6bce8bb437cb2a7e",
+      "processing_source_dimensions": [
+        1280,
+        1899
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "b0ce2f7b153caab31f77cc6572b6f1b3f012cba8c7a7015c8cf165f8cd9810a4",
+      "output_dhash": "8d3939374f1f0e1b",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_004.png",
+      "source_title": "File:Buriti, no estado do Tocantins..jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Buriti,_no_estado_do_Tocantins..jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Buriti%2C_no_estado_do_Tocantins..jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Buriti%2C_no_estado_do_Tocantins..jpg/1280px-Buriti%2C_no_estado_do_Tocantins..jpg",
+      "source_author": "Leovigildo Santos",
+      "source_license": "CC-BY-SA 3.0",
+      "source_license_label": "CC BY-SA 3.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "O termo buriti é a designação comum das plantas dos gêneros Mauritia, Mauritiella, Trithrinax e Astrocaryum, da família das arecáceas (antigas palmáceas). Mais especificamente, o termo costuma se referir a Mauritia flexuosa (Mauritia vinifera Mart.), uma palmeira muito alta, nativa de Trinidad e Tobago e das Regiões Central e Norte da América do Sul, especialmente de Venezuela e Brasil. Neste país, predomina nos estados de Roraima, Rondônia, Amazonas, Pará, Maranhão e Piauí, mas também encontra-se nos estados do Ceará, Bahia, Goiás, Tocantins, Minas Gerais, Mato Grosso, Mato Grosso do Sul, Acre, Rio de Janeiro, São Paulo e no Distrito Federal. É também conhecida como coqueiro-buriti, buritizeiro, miriti, muriti, muritim, muruti, palmeira-dos-brejos, carandá-guaçu e carandaí-guaçu.",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        1800,
+        1350
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "84aae9678b60d8c43fe1813fcedf55ce73ce5d40",
+      "source_page_revision": 1236177298,
+      "processing_source_sha256": "1d9715f6d41716771849dbc9e93ad313cf28e72295903ba3686f375e0a9ab37b",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "45c3b9fe1f17defe224e13a4b3f72a3aa44d29a9cea75bc9525387406b95edbe",
+      "output_dhash": "33212c4ccccf2d28",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_005.png",
+      "source_title": "File:Bromélia nativa do Tocantins..jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Brom%C3%A9lia_nativa_do_Tocantins..jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Brom%C3%A9lia_nativa_do_Tocantins..jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Brom%C3%A9lia_nativa_do_Tocantins..jpg/1280px-Brom%C3%A9lia_nativa_do_Tocantins..jpg",
+      "source_author": "Leovigildo Santos",
+      "source_license": "CC-BY-SA 3.0",
+      "source_license_label": "CC BY-SA 3.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "looks like Bromelia humilis",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        1800,
+        1350
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "557558745ed8e3623b6d689daa39e54d23ebfc71",
+      "source_page_revision": 1236173420,
+      "processing_source_sha256": "a2ba713f52d6ee6054fa9690d6043d0a2961b2d2b809035ae0bcab2a8f8516b8",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "408ad93ac6b8d3dca1b84b510ebd49a637756a8f621626d88328c2e11574d35b",
+      "output_dhash": "6b73097926f2599c",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_006.png",
+      "source_title": "File:Beija Flor tesoura verde.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Beija_Flor_tesoura_verde.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Beija_Flor_tesoura_verde.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Beija_Flor_tesoura_verde.jpg/1280px-Beija_Flor_tesoura_verde.jpg",
+      "source_author": "Fernando Fernandes da Silva",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Beija flor tesoura verde (fêmea).Thalurania furcata.",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        4000,
+        3000
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "7f878af44fedd4219bf6a5bc818f97bfa792ae1f",
+      "source_page_revision": 1198153182,
+      "processing_source_sha256": "fdca99f2516ff6b265aed8d4b981fa45fb0ea204ade4f03f3c2414fed3ac4acb",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "2b01dce771bd716c3f13efc54b387b28e311bd1607d65c1e73e9054c63316177",
+      "output_dhash": "07f8dc161a1faf6b",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_007.png",
+      "source_title": "File:Bacurau (Hydropsalis albicollis).jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Bacurau_(Hydropsalis_albicollis).jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Bacurau_%28Hydropsalis_albicollis%29.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Bacurau_%28Hydropsalis_albicollis%29.jpg/1280px-Bacurau_%28Hydropsalis_albicollis%29.jpg",
+      "source_author": "Fernando Fernandes da Silva",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Pauraque Nyctidromus albicollis, Cerrado, Brazil.",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        4000,
+        3000
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "0705076384d34b1174c46bba5f20543095b85d82",
+      "source_page_revision": 1074972086,
+      "processing_source_sha256": "a00bbfa0944a5fe7d9e4d0f77f6c2929d01f01c1054424ab183fe250e7bc392e",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "eb5a3953c87feca3d14e1942f7d37999ece840ef9ee27f0f17886ad494eb0601",
+      "output_dhash": "dd51752d3c751e02",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_008.png",
+      "source_title": "File:Barriguda.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Barriguda.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Barriguda.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Barriguda.jpg/1280px-Barriguda.jpg",
+      "source_author": "Isac rodrigues do nascimento",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Uma barriguda com uma casa de joão de baro no interior da Bahia caatinga .",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        1920,
+        3200
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        1707
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "b35c54500b5de1542a563b345c72278b85daff72",
+      "source_page_revision": 1081292436,
+      "processing_source_sha256": "d72c9e1f56f7c22e74a27be5783753630a567fc1930b85806211325a856e11a2",
+      "processing_source_dimensions": [
+        1280,
+        2133
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "166d8de5f34137ecdaf9f7913c0b2e4f38285775609e228fea18abbe42c30138",
+      "output_dhash": "a3d8038394d1fde6",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_009.png",
+      "source_title": "File:Byrsonima sp.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Byrsonima_sp.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Byrsonima_sp.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Byrsonima_sp.jpg/1280px-Byrsonima_sp.jpg",
+      "source_author": "Jean Fábio Torres Rodrigues",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Imagem de cacho de flores de Byrsonima sp",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        4000,
+        6000
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        1536
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "cf7e9e1233c44d4da6d010563a062f0f4afd9f56",
+      "source_page_revision": 1102434238,
+      "processing_source_sha256": "c726907db1c004e39b97d54df35aa4d19499aa63227671d926998283cf830026",
+      "processing_source_dimensions": [
+        1280,
+        1920
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "6fcec032275608b80ec056e00bcfb811fef529b097312b10c019d27a24c20d9c",
+      "output_dhash": "b29b49e9e323b2a0",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_010.png",
+      "source_title": "File:Alto paraíso do Goiás.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Alto_para%C3%ADso_do_Goi%C3%A1s.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Alto_para%C3%ADso_do_Goi%C3%A1s.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Alto_para%C3%ADso_do_Goi%C3%A1s.jpg/1280px-Alto_para%C3%ADso_do_Goi%C3%A1s.jpg",
+      "source_author": "Lucianomarcs",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Amarelo luminoso Fundo escuro Sem efeitos",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        3456,
+        5184
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        1536
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "09621ca4cb5e7cb403a34007d1aa719a2746bc71",
+      "source_page_revision": 1047241262,
+      "processing_source_sha256": "7c27e45cf3f708514b6913e560233bfe7f1f5095bb345fa73e49d22e361ffe71",
+      "processing_source_dimensions": [
+        1280,
+        1920
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "73114717eb12eb71ec680093eb210d8bc59c4b1e05ca222406a05056690cc64a",
+      "output_dhash": "312d6c73616f677a",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_011.png",
+      "source_title": "File:\"Araçari-castanho\" - Pteroglossus castanotis 01.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:%22Ara%C3%A7ari-castanho%22_-_Pteroglossus_castanotis_01.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%22Ara%C3%A7ari-castanho%22_-_Pteroglossus_castanotis_01.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/%22Ara%C3%A7ari-castanho%22_-_Pteroglossus_castanotis_01.jpg/1280px-%22Ara%C3%A7ari-castanho%22_-_Pteroglossus_castanotis_01.jpg",
+      "source_author": "DiogoKanouté",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Um trio de araçaris-castanhos, pousados brevemente nos galhos mortos de uma árvore à margem do córrego Areias - em Arenópolis - Sudoeste de Goiás. Reino: Animalia Filo: Chordata Classe: Aves Ordem: Piciformes Família: Ramphastidae (Vigors, 1825) Espécie: Pteroglossus castanotis (Gould, 1834)",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        4000,
+        3000
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "892250e3229c9c3a4f6e2210f97b7d3937c69bd5",
+      "source_page_revision": 1219293563,
+      "processing_source_sha256": "07374651f616e42399a95ebdb98893487824de5968238f5ec2f0aec04f40e737",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "29927cdf2928b5d6cd569e6b10724a1ed9a801e6704177b4a3ea56020a6e9836",
+      "output_dhash": "9ab2d37139581e1b",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_012.png",
+      "source_title": "File:\"abelha-cachorro\" - Trigona spinipes - em flor de \"açoita-cavalo-graúdo\" Luehea grandiflora Mart. & Zucc. (Malvaceae) 01.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:%22abelha-cachorro%22_-_Trigona_spinipes_-_em_flor_de_%22a%C3%A7oita-cavalo-gra%C3%BAdo%22_Luehea_grandiflora_Mart._%26_Zucc._(Malvaceae)_01.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/%22abelha-cachorro%22_-_Trigona_spinipes_-_em_flor_de_%22a%C3%A7oita-cavalo-gra%C3%BAdo%22_Luehea_grandiflora_Mart._%26_Zucc._%28Malvaceae%29_01.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%22abelha-cachorro%22_-_Trigona_spinipes_-_em_flor_de_%22a%C3%A7oita-cavalo-gra%C3%BAdo%22_Luehea_grandiflora_Mart._%26_Zucc._%28Malvaceae%29_01.jpg/1280px-%22abelha-cachorro%22_-_Trigona_spinipes_-_em_flor_de_%22a%C3%A7oita-cavalo-gra%C3%BAdo%22_Luehea_grandiflora_Mart._%26_Zucc._%28Malvaceae%29_01.jpg",
+      "source_author": "DiogoKanouté",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "\"abelha-cachorro\" visitando flor de \"açoita-cavalo-graúdo\" em pastagem no Bioma Cerrado - em Piranhas - Sudoeste de Goiás - Próximo (cerca de 120km) da fronteira com Mato Grosso. \"Açoita-cavalo-graúdo\" Luehea grandiflora Mart. & Zucc. (Malvaceae) - arbusto, arvoreta a árvore Distribuição Geográfica Ocorrências confirmadas: Norte (Pará) Nordeste (Bahia, Ceará, Maranhão) Centro-Oeste (Distrito Federal, Goiás, Mato Grosso do Sul, Mato Grosso) Sudeste (Minas Gerais, Rio de Janeiro, São Paulo) Sul (Paraná) Domínios Fitogeográficos Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal Tipo de Vegetação Cerrado (lato sensu), Floresta Ciliar ou Galeria (fonte - Luehea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro.Disponível em: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB9095>. Acesso em: 29 Jun. 2018) \"Abelha-cachorro\" Reino: Animalia Filo: Arthropoda Classe: Insecta Ordem: Hymenoptera Superfamília: Apoidea Família: Apidae Tribo: Meliponini Género: Trigona Espécie: T. spinipes Nome binomial Trigona spinipes Trigona spinipes,conhecida pelo nome irapuã, é uma abelha social brasileira, da subfamília dos meliponíneos, de coloração negra reluzente e extremamente agressiva. Seu nome, derivado do tupi eírapu'a (\"mel redondo\"), faz referência ao formato de sua colmeia. (Fabricius, 1793)",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        3264,
+        2448
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "10a6bdb6bda039b8fcb0372727a15b9a00057c20",
+      "source_page_revision": 1039795029,
+      "processing_source_sha256": "eefdf5f9c2e2114ac224e657c8999330f3aff34a25696b81c12d7ef36de58d50",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "32f16e608b5fc01898e7dba4f0cd0387f52a260af413ee709dffb8d0001738d4",
+      "output_dhash": "5b1612672e3735b8",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_013.png",
+      "source_title": "File:Botões florais de \"açoita-cavalo-graúdo\" Luehea grandiflora Mart. & Zucc. (Malvaceae) 04.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Bot%C3%B5es_florais_de_%22a%C3%A7oita-cavalo-gra%C3%BAdo%22_Luehea_grandiflora_Mart._%26_Zucc._(Malvaceae)_04.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bot%C3%B5es_florais_de_%22a%C3%A7oita-cavalo-gra%C3%BAdo%22_Luehea_grandiflora_Mart._%26_Zucc._%28Malvaceae%29_04.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bot%C3%B5es_florais_de_%22a%C3%A7oita-cavalo-gra%C3%BAdo%22_Luehea_grandiflora_Mart._%26_Zucc._%28Malvaceae%29_04.jpg/1280px-Bot%C3%B5es_florais_de_%22a%C3%A7oita-cavalo-gra%C3%BAdo%22_Luehea_grandiflora_Mart._%26_Zucc._%28Malvaceae%29_04.jpg",
+      "source_author": "DiogoKanouté",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Botões florais de \"açoita-cavalo-graúdo\" em pastagem no Bioma Cerrado - em Piranhas - Sudoeste de Goiás - Próximo (cerca de 120km) da fronteira com Mato Grosso. \"Açoita-cavalo-graúdo\" Luehea grandiflora Mart. & Zucc. (Malvaceae) - arbusto, arvoreta a árvore Distribuição Geográfica Ocorrências confirmadas: Norte (Pará) Nordeste (Bahia, Ceará, Maranhão) Centro-Oeste (Distrito Federal, Goiás, Mato Grosso do Sul, Mato Grosso) Sudeste (Minas Gerais, Rio de Janeiro, São Paulo) Sul (Paraná) Domínios Fitogeográficos Amazônia, Caatinga, Cerrado, Mata Atlântica, Pantanal Tipo de Vegetação Cerrado (lato sensu), Floresta Ciliar ou Galeria (fonte - Luehea in Flora do Brasil 2020 em construção. Jardim Botânico do Rio de Janeiro.Disponível em: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB9095>. Acesso em: 29 Jun. 2018)",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        3264,
+        2448
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "16bef0de87dba8b79b2ac2bf19707d89f6c8a804",
+      "source_page_revision": 1095720426,
+      "processing_source_sha256": "3be54b5fb10f8a67644992d0a309b202f47e956804f39e513ee4d0243c806b4e",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "c6402654900504563cf095af0b540bb4e01e2fedf3973c2b3af288d0c8a50c9e",
+      "output_dhash": "696c6c725136969b",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_014.png",
+      "source_title": "File:\"Martim-pescador-pequeno\" fêmea - em vereda - Santa Helena de Goiás 01.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:%22Martim-pescador-pequeno%22_f%C3%AAmea_-_em_vereda_-_Santa_Helena_de_Goi%C3%A1s_01.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/%22Martim-pescador-pequeno%22_f%C3%AAmea_-_em_vereda_-_Santa_Helena_de_Goi%C3%A1s_01.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/%22Martim-pescador-pequeno%22_f%C3%AAmea_-_em_vereda_-_Santa_Helena_de_Goi%C3%A1s_01.jpg/1280px-%22Martim-pescador-pequeno%22_f%C3%AAmea_-_em_vereda_-_Santa_Helena_de_Goi%C3%A1s_01.jpg",
+      "source_author": "DiogoKanouté",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Registrado no interior de uma vereda no Bioma Cerrado em Santa Helena de Goiás - Sul do estado. Ave da família Alcedinidae, o martim-pescador-pequeno é o representante mais comum no Brasil. É conhecido também pelos nomes de ariramba-pequeno, martim-cachaça e martim-pescador. Vive ao longo de rios, lagos e orla marítima, mangues, embocaduras de rios, em florestas ou áreas abertas, onde haja árvore para o pouso. Classificação Científica Reino: Animalia Filo: Chordata Classe: Aves Ordem: Coraciiformes Família: Alcedinidae (Rafinesque, 1815) Espécie: Chloroceryle americana (Gmelin, 1788) Subespécie - Chloroceryle americana mathewsii (Laubmann, 1927) - ocorre no Sul do Brasil e Bolívia até o Norte da Argentina. (fonte dos dados - https://www.wikiaves.com.br/martim-pescador-pequeno)",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        4000,
+        3000
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "31bbcd42388134a029734413e7203c05f5b5327e",
+      "source_page_revision": 1101908961,
+      "processing_source_sha256": "26f39eebdd43f270cf22c30f13760526f3d85c171c297bf37b889cb24e659d34",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "47e8956d94319864da0125850339f10c2fa4d8e8fbf694a93ce0ce02e945bc02",
+      "output_dhash": "333139b9185a3c19",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_015.png",
+      "source_title": "File:\"chapéu-de-couro\" - Salvertia convallariodora A.St.-Hil. - Vochysiaceae 01.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:%22chap%C3%A9u-de-couro%22_-_Salvertia_convallariodora_A.St.-Hil._-_Vochysiaceae_01.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/%22chap%C3%A9u-de-couro%22_-_Salvertia_convallariodora_A.St.-Hil._-_Vochysiaceae_01.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/%22chap%C3%A9u-de-couro%22_-_Salvertia_convallariodora_A.St.-Hil._-_Vochysiaceae_01.jpg/1280px-%22chap%C3%A9u-de-couro%22_-_Salvertia_convallariodora_A.St.-Hil._-_Vochysiaceae_01.jpg",
+      "source_author": "Diogo Bueno Kanouté",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "\"chapéu-de-couro\" - Salvertia convallariodora A.St.-Hil. Família: Vochysiaceae (APG2). árvore de casca e ramos espessos, folhas coriáceas verticiladas, muitas por nó, flor branca com centro amarelo. Em cerrado sensu strictu de solo rochoso em terreno inclinado, em Palestina de Goiás.",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        3264,
+        2448
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "116617e9c93fa519f4b33e066d2f62bdbb87e8b4",
+      "source_page_revision": 1031989782,
+      "processing_source_sha256": "8fa4274817a24382a90338bde0df45f1cab2d10c5253604a04d5619780fc9f4b",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "534d16b66f401146d72d282eba23ff284aef9b49c426050339fd0aed5770c09d",
+      "output_dhash": "73e3fb727d3b6a69",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_016.png",
+      "source_title": "File:Anoitecer nos Pireneus (Pirenópolis, GO).jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Anoitecer_nos_Pireneus_(Piren%C3%B3polis,_GO).jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Anoitecer_nos_Pireneus_%28Piren%C3%B3polis%2C_GO%29.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Anoitecer_nos_Pireneus_%28Piren%C3%B3polis%2C_GO%29.jpg/1280px-Anoitecer_nos_Pireneus_%28Piren%C3%B3polis%2C_GO%29.jpg",
+      "source_author": "Pwoli",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "The setting sun, with silhouettes of typical Cerrado trees contrasting with the sky",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        4128,
+        3096
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "c556db9c48f9c606798c8e8eb946363c106d19c0",
+      "source_page_revision": 1073148647,
+      "processing_source_sha256": "18709d579c4146be0079dba0bbe0d31878b84186bd2eb1e9e4371727693bceb1",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "ad9567b97a08fcb512e066287f09220f8196481dadfc03b12be0bade468700a7",
+      "output_dhash": "634b9967e3910d2d",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_017.png",
+      "source_title": "File:Brazilian Savanna - Valley of the Areias River Cerrado - Vale do Rio Areias (50836988912).jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Brazilian_Savanna_-_Valley_of_the_Areias_River_Cerrado_-_Vale_do_Rio_Areias_(50836988912).jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Brazilian_Savanna_-_Valley_of_the_Areias_River_Cerrado_-_Vale_do_Rio_Areias_%2850836988912%29.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Brazilian_Savanna_-_Valley_of_the_Areias_River_Cerrado_-_Vale_do_Rio_Areias_%2850836988912%29.jpg/1280px-Brazilian_Savanna_-_Valley_of_the_Areias_River_Cerrado_-_Vale_do_Rio_Areias_%2850836988912%29.jpg",
+      "source_author": "A. Duarte",
+      "source_license": "CC-BY-SA 2.0",
+      "source_license_label": "CC BY-SA 2.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source_description": "Brazil, Tocantins, Valley of the Areias River - near sunrise / Brasil, Tocantins, Val do Rio Areias - perto do amanhecer",
+      "source_credit": "Brazilian Savanna - Valley of the Areias River / Cerrado - Vale do Rio Areias",
+      "source_dimensions": [
+        3840,
+        2880
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        768
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "7ae869de0dca4656d04a92e9fb659fcd7d151f72",
+      "source_page_revision": 958590251,
+      "processing_source_sha256": "26cd96b2930fe2fe468e914d7544dd2169744a768b7aafdf33150d172dbaf473",
+      "processing_source_dimensions": [
+        1280,
+        960
+      ],
+      "centering": [
+        0.5,
+        0.72
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "bc90234686cfd5d7fc3d6f7cc616565f129fa3218ac98b0d4be3e7fd7191bf5d",
+      "output_dhash": "014559318f7e708c",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_018.png",
+      "source_title": "File:Brazil Brasil - Tocantins - Cavalcante - Anfíbio - Bokermannohyla pseudopseudis (9178438917).jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Brazil_Brasil_-_Tocantins_-_Cavalcante_-_Anf%C3%ADbio_-_Bokermannohyla_pseudopseudis_(9178438917).jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Brazil_Brasil_-_Tocantins_-_Cavalcante_-_Anf%C3%ADbio_-_Bokermannohyla_pseudopseudis_%289178438917%29.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Brazil_Brasil_-_Tocantins_-_Cavalcante_-_Anf%C3%ADbio_-_Bokermannohyla_pseudopseudis_%289178438917%29.jpg",
+      "source_author": "A. Duarte",
+      "source_license": "CC-BY-SA 2.0",
+      "source_license_label": "CC BY-SA 2.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source_description": "Bokermannohyla pseudopseudis em foto subaquática em um córrego afluente do Rio da Prata. Bokermannohyla pseudopseudis underwater photo in a tributary stream of the River Plate.",
+      "source_credit": "Brazil / Brasil - Tocantins - Cavalcante - Anfíbio - Bokermannohyla pseudopseudis",
+      "source_dimensions": [
+        1000,
+        750
+      ],
+      "processing_source_dimensions_reported": [
+        1000,
+        750
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "f7ed0e3bea2c11d802c0408cb00cc896643fbdbb",
+      "source_page_revision": 1096798176,
+      "processing_source_sha256": "87a61e620dfefd6346742014db48c95d230a235e32e29b494b7073429004ac54",
+      "processing_source_dimensions": [
+        1000,
+        750
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "57adaac624f01f6a957a95b5cd645c20c758e61f13cb2bfd235a49e30e5cbc72",
+      "output_dhash": "52121e1e078a0c1e",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_019.png",
+      "source_title": "File:Allamanda angustifolia Pohl Polilana cerrado Pirenopolis janeiro 2024 01.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Allamanda_angustifolia_Pohl_Polilana_cerrado_Pirenopolis_janeiro_2024_01.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Allamanda_angustifolia_Pohl_Polilana_cerrado_Pirenopolis_janeiro_2024_01.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Allamanda_angustifolia_Pohl_Polilana_cerrado_Pirenopolis_janeiro_2024_01.jpg/1280px-Allamanda_angustifolia_Pohl_Polilana_cerrado_Pirenopolis_janeiro_2024_01.jpg",
+      "source_author": "Marcosviniciusrs",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Allamanda angustifolia Pohl na região do Morro do Frota em janeiro de 2024",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        3456,
+        4608
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        1365
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "64aab709deab0a27066158ab00ca6f0129fceeff",
+      "source_page_revision": 1062882599,
+      "processing_source_sha256": "f378bd3afeb5f712825f84139ad3d7b6daac15cd6a858284b72cddb25b3722c1",
+      "processing_source_dimensions": [
+        1280,
+        1707
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "86dc48abe067a3baddc0899ecac963d723a917efb02e7cca2c375550e3fd0410",
+      "output_dhash": "4e3e335bda95b315",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_020.png",
+      "source_title": "File:Fauna do cerrado.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Fauna_do_cerrado.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Fauna_do_cerrado.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Fauna_do_cerrado.jpg/1280px-Fauna_do_cerrado.jpg",
+      "source_author": "Mariana OA Lima",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Apesar de lindas, seus olhos intimidam a qualquer um.",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        3048,
+        1935
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        650
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "83b4507cfac833b50f40888f73e17dd99892358d",
+      "source_page_revision": 1025605400,
+      "processing_source_sha256": "c4429fe6b87d90ff88bc1b98a06a77ced487351b22750839ee3b48db7e0198ee",
+      "processing_source_dimensions": [
+        1280,
+        813
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "8f032305731b7b4d5cc5c5e5324ba8bb1be13115df3c5a457c5e5bf636ea58cc",
+      "output_dhash": "c8a18998313166fc",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_021.png",
+      "source_title": "File:Flora do Cerrado.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Flora_do_Cerrado.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Flora_do_Cerrado.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Flora_do_Cerrado.jpg",
+      "source_author": "Maria Inez Santos",
+      "source_license": "CC-BY-SA 3.0",
+      "source_license_label": "CC BY-SA 3.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source_description": "Flor Amarilla do Cerrado",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        800,
+        600
+      ],
+      "processing_source_dimensions_reported": [
+        800,
+        600
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "e4c118e479bbeabee25c267676b9d9b9759daf8e",
+      "source_page_revision": 1236362280,
+      "processing_source_sha256": "6fc779971e634561ade17424e81189bba68443ec23ec619238c512bc25dfec0b",
+      "processing_source_dimensions": [
+        800,
+        600
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "1821c7b83e15372d3e0c5019c1bcfa36ee8e00d5d9bfdc09f5553dafb3aecdb3",
+      "output_dhash": "9b8ec74999add7d2",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_022.png",
+      "source_title": "File:Vegetação cerrado.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Vegeta%C3%A7%C3%A3o_cerrado.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Vegeta%C3%A7%C3%A3o_cerrado.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Vegeta%C3%A7%C3%A3o_cerrado.jpg/1280px-Vegeta%C3%A7%C3%A3o_cerrado.jpg",
+      "source_author": "Renato Menezes Caffer",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Vegetação do Cerrado",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        4288,
+        2848
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        680
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "221bc6c480b216f901cf4a67299d1541cbe67c60",
+      "source_page_revision": 1069581582,
+      "processing_source_sha256": "3522abfab3eaf887e52756626aac21b035172af3158c6f947cbf52c40792d506",
+      "processing_source_dimensions": [
+        1280,
+        850
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "3cd6662076c3f09c62aac27ff7be5cf762161f9bb989a6f75bd71fce63b26e77",
+      "output_dhash": "b89cba3ba3811490",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_023.png",
+      "source_title": "File:Cerrado landscape.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Cerrado_landscape.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Cerrado_landscape.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Cerrado_landscape.jpg",
+      "source_author": "Gil df",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "View from the National Park \"Chapada dos Veadeiros\", Brazil",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        960,
+        744
+      ],
+      "processing_source_dimensions_reported": [
+        960,
+        744
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "63cbac42c35ab34cf7e9f04ff50a7023d4f44bc3",
+      "source_page_revision": 853416473,
+      "processing_source_sha256": "61947d6e2fa66bbc351580ee720bc9b06cb96e1b16d0d6bdf52580e036bb43aa",
+      "processing_source_dimensions": [
+        960,
+        744
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "bd621c4afe4aadc493fad43984d837e5040c9cd7e96d4da32304313103716562",
+      "output_dhash": "becc0ffd77d70c99",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    },
+    {
+      "arquivo": "img_024.png",
+      "source_title": "File:Cachoeira de São Bento.jpg",
+      "source_page_url": "https://commons.wikimedia.org/wiki/File:Cachoeira_de_S%C3%A3o_Bento.jpg",
+      "source_download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Cachoeira_de_S%C3%A3o_Bento.jpg",
+      "processing_download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cachoeira_de_S%C3%A3o_Bento.jpg/1280px-Cachoeira_de_S%C3%A3o_Bento.jpg",
+      "source_author": "Munis Pedro",
+      "source_license": "CC-BY-SA 4.0",
+      "source_license_label": "CC BY-SA 4.0",
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source_description": "Cachoeira de São Bento na Chapada dos Veadeiros, Goiás, Brasil",
+      "source_credit": "Own work",
+      "source_dimensions": [
+        1599,
+        1066
+      ],
+      "processing_source_dimensions_reported": [
+        1024,
+        683
+      ],
+      "source_mime": "image/jpeg",
+      "source_mediawiki_sha1": "ed10a186a649bcd4946f983e52fafbbc4ce3f0cd",
+      "source_page_revision": 845174277,
+      "processing_source_sha256": "061ea8507f6071a8d45161abaae0d197061c3f63c7d430b437fa5b953ebcf0b9",
+      "processing_source_dimensions": [
+        1280,
+        853
+      ],
+      "centering": [
+        0.5,
+        0.5
+      ],
+      "output_dimensions": [
+        768,
+        768
+      ],
+      "output_sha256": "63fdaa1127afc687c06d40478d8ce2eb89e93bba19ef42eb288948a5d9cf240e",
+      "output_dhash": "4b3d9d911911191b",
+      "processing_version": "woodcut-v2",
+      "cache_recovered_after_timeout": false,
+      "visual_review_status": "pending"
+    }
+  ]
+}

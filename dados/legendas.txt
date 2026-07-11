@@ -1,1 +1,25 @@
 # arquivo<TAB>caption<TAB>status_revisao
+img_001.png	flpxilobr, frutos de araticum do brejo em vegetacao do Cerrado, com contornos pretos marcantes e hachuras artesanais	rascunho
+img_002.png	flpxilobr, arvore tortuosa de casca grossa tipica do Cerrado, renderizada em alto contraste com textura de xilogravura	rascunho
+img_003.png	flpxilobr, queda d'agua entre rochas e mata de Cerrado, em composicao preta e marfim com hachuras densas	rascunho
+img_004.png	flpxilobr, cachos de buriti e folhas de palmeira do Tocantins, simplificados em linguagem grafica de xilogravura digital	rascunho
+img_005.png	flpxilobr, bromelia nativa com folhas radiais e centro escuro, desenhada com contrastes fortes e cortes artesanais	rascunho
+img_006.png	flpxilobr, beija-flor pousado em ramo fino, com corpo claro, fundo hachurado e linhas pretas expressivas	rascunho
+img_007.png	flpxilobr, bacurau camuflado sobre tronco e folhas, representado com texturas de entalhe e sombras de alto contraste	rascunho
+img_008.png	flpxilobr, galhos secos e copa de arvore do Cerrado contra fundo claro, com linhas irregulares e hachuras cruzadas	rascunho
+img_009.png	flpxilobr, cacho de flores de Byrsonima entre folhas, transformado em padrao grafico preto e marfim	rascunho
+img_010.png	flpxilobr, flor clara isolada sobre fundo escuro, com petalas simplificadas e textura manual de xilogravura	rascunho
+img_011.png	flpxilobr, aracari pousado entre galhos finos, com silhueta recortada e hachuras leves no fundo	rascunho
+img_012.png	flpxilobr, flor aberta com inseto polinizador, em composicao de alto contraste e contornos pretos evidentes	rascunho
+img_013.png	flpxilobr, botoes e ramos florais do Cerrado, com folhas e galhos gravados em hachuras densas	rascunho
+img_014.png	flpxilobr, martim-pescador sobre galho, retratado em silhueta escura e fundo claro texturizado	rascunho
+img_015.png	flpxilobr, inflorescencia de chapeu-de-couro entre folhas do Cerrado, com contraste severo e textura entalhada	rascunho
+img_016.png	flpxilobr, anoitecer nos Pireneus com arvores retorcidas em silhueta, traduzido para preto e marfim	rascunho
+img_017.png	flpxilobr, vale do Rio Areias no Cerrado ao amanhecer, com horizonte baixo, ceu texturizado e massas escuras de vegetacao	rascunho
+img_018.png	flpxilobr, anfibio em ambiente aquatico do Cerrado, representado com corpo hachurado e fundo organico escuro	rascunho
+img_019.png	flpxilobr, vegetacao arbustiva de Allamanda no Cerrado, com ramos, flores e folhas em gravura de alto contraste	rascunho
+img_020.png	flpxilobr, ave de rapina ou coruja pousada em galho, com olhos destacados e fundo claro em linguagem de xilogravura	rascunho
+img_021.png	flpxilobr, flor grande da flora do Cerrado em primeiro plano, com petalas claras, centro texturizado e folhas escuras	rascunho
+img_022.png	flpxilobr, ramo fino com folhas pequenas da vegetacao do Cerrado, desenhado com contornos pretos e hachuras diagonais	rascunho
+img_023.png	flpxilobr, paisagem aberta da Chapada dos Veadeiros com campo, vegetacao e horizonte, em textura de gravura	rascunho
+img_024.png	flpxilobr, cachoeira de Sao Bento com agua, rochas e mata ao redor, em composicao xilografica de preto e marfim	rascunho

@@ -7,7 +7,15 @@ from collections.abc import Iterable
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
+from PIL import Image, UnidentifiedImageError
+
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
+ALLOWED_DATASET_LICENSE_PREFIXES = (
+    "Public domain",
+    "CC0",
+    "CC-BY ",
+    "CC-BY-SA ",
+)
 REQUIRED_TEAM_ASSIGNMENTS = [
     "dados_e_licencas",
     "treinamento_lora",
@@ -148,11 +156,52 @@ def dataset_checks(root: Path, config: dict) -> list[Check]:
         if status == "revisada" and (not token or caption.startswith(token + ",")):
             reviewed_files.add(filename)
     image_files = {p.name for p in images}
+    required_source_fields = {
+        "arquivo",
+        "url",
+        "autor",
+        "licenca",
+        "data_coleta",
+        "fonte",
+        "observacoes",
+    }
+    rows_with_required_fields = [
+        row
+        for row in sources
+        if all(row.get(field, "").strip() for field in required_source_fields)
+    ]
+    allowed_license_rows = [
+        row
+        for row in sources
+        if row.get("licenca", "").strip().startswith(ALLOWED_DATASET_LICENSE_PREFIXES)
+    ]
+    image_sizes: dict[str, tuple[int, int]] = {}
+    unreadable_images: list[str] = []
+    for image_path in images:
+        try:
+            with Image.open(image_path) as image:
+                image_sizes[image_path.name] = image.size
+        except (OSError, UnidentifiedImageError):
+            unreadable_images.append(image_path.name)
+    small_images = [
+        filename
+        for filename, size in image_sizes.items()
+        if min(size) < 512
+    ]
     return [
         Check("image_count", 20 <= len(images) <= 40, f"{len(images)} imagens encontradas; esperado 20–40."),
         Check("provenance_count", image_files == source_files and bool(image_files),
               "Proveniência cobre todas as imagens." if image_files == source_files and image_files
               else f"Diferenças imagem/fonte: imagens sem fonte={sorted(image_files-source_files)}, fontes sem imagem={sorted(source_files-image_files)}."),
+        Check("provenance_fields", len(rows_with_required_fields) == len(sources) and bool(sources),
+              "Campos obrigatÃ³rios de proveniÃªncia preenchidos." if len(rows_with_required_fields) == len(sources) and sources
+              else f"Linhas com proveniÃªncia completa: {len(rows_with_required_fields)}/{len(sources)}."),
+        Check("allowed_licenses", len(allowed_license_rows) == len(sources) and bool(sources),
+              "Todas as licenÃ§as do dataset sÃ£o permitidas." if len(allowed_license_rows) == len(sources) and sources
+              else f"Linhas com licenÃ§a permitida: {len(allowed_license_rows)}/{len(sources)}."),
+        Check("image_resolution", not unreadable_images and not small_images and len(image_sizes) == len(images) and bool(images),
+              "Todas as imagens tÃªm pelo menos 512 x 512." if not unreadable_images and not small_images and image_sizes
+              else f"Imagens ilegÃ­veis={unreadable_images}; abaixo de 512={small_images}."),
         Check("captions_reviewed", image_files == reviewed_files and bool(image_files) and malformed == 0,
               "Todas as captions estão revisadas." if image_files == reviewed_files and image_files and malformed == 0
               else f"Captions revisadas {len(reviewed_files)}/{len(image_files)}; linhas malformadas={malformed}."),
