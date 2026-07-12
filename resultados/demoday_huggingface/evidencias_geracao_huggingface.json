@@ -1,0 +1,30 @@
+[
+  {
+    "prompt_index": 1,
+    "theme": "lobo-guara entre capim dourado",
+    "space_id": "RalphError/atelie-xilogravura-cerrado",
+    "space_url": "https://ralpherror-atelie-xilogravura-cerrado.hf.space",
+    "api_name": "/gerar",
+    "started_at_utc": "2026-07-12T02:47:56.284875+00:00",
+    "finished_at_utc": "2026-07-12T02:51:04.001646+00:00",
+    "latency_seconds": 187.717,
+    "status": "Concluido.",
+    "expanded_prompt": "flpxilobr, lobo-guara entre capim dourado, composicao equilibrada do Cerrado, contornos pretos marcantes, alto contraste, hachuras artesanais e paleta reduzida em preto e marfim, xilogravura digital",
+    "image_file": "resultados\\demoday_huggingface\\prompt_01_imagem.png",
+    "audio_file": "resultados\\demoday_huggingface\\prompt_01_narracao.wav"
+  },
+  {
+    "prompt_index": 2,
+    "theme": "seriema ao amanhecer no Cerrado",
+    "space_id": "RalphError/atelie-xilogravura-cerrado",
+    "space_url": "https://ralpherror-atelie-xilogravura-cerrado.hf.space",
+    "api_name": "/gerar",
+    "started_at_utc": "2026-07-12T02:51:04.027841+00:00",
+    "finished_at_utc": "2026-07-12T02:54:04.583596+00:00",
+    "latency_seconds": 180.556,
+    "status": "Concluido.",
+    "expanded_prompt": "flpxilobr, seriema ao amanhecer no Cerrado, composicao equilibrada do Cerrado, contornos pretos marcantes, alto contraste, hachuras artesanais e paleta reduzida em preto e marfim, xilogravura digital",
+    "image_file": "resultados\\demoday_huggingface\\prompt_02_imagem.png",
+    "audio_file": "resultados\\demoday_huggingface\\prompt_02_narracao.wav"
+  }
+]

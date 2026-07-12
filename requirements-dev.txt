@@ -1,0 +1,4 @@
+nbformat
+Pillow
+pytest
+ruff

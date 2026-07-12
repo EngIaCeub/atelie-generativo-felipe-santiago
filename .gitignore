@@ -1,0 +1,59 @@
+# Segredos e ambientes locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+
+# Python/Jupyter
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+.venv-lora/
+venv/
+
+# IDE/SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Codex local/logs
+.codex-log/
+.codex-migration-backup/
+
+# Modelos e checkpoints pesados: publicar no Hub, não no Git
+*.safetensors
+*.ckpt
+*.bin
+checkpoint-*/
+outputs/
+lora_saida/
+wandb/
+
+# Temporários de relatório
+relatorio/build/
+*.aux
+*.log
+*.out
+*.toc
+
+# Dados temporários/rascunhos; imagens finais licenciadas em dados/imagens podem ser versionadas
+dados/rascunhos/
+dados/cache/
+dados/imagens/.curation-cache/
+dados/imagens/dataset-*/
+
+# Execucoes locais e artefatos de apoio nao essenciais para a entrega
+resultados/treino/local/
+tmp/
+tmp_relatorio/
+.pytest-tmp-delivery/
+.pytest-tmp-local/
+auditoria_sumarizacao_*.md
+resultados/demoday_huggingface/_deck_preview/
+*.inspect.ndjson

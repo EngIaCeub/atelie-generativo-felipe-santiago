@@ -1,0 +1,31 @@
+id_avaliador,sample_id,preferencia,aderencia_estilo,qualidade,comentario
+R01,p01,B,5,5,"Está com estilo aderente ao tipo de desenho que eu esperava, com boa composição e contraste."
+R01,p02,B,4,4,"Faltou um pouco de contraste, mas a imagem B tem melhor composição e aderência ao estilo."
+R01,p03,A,5,5,"Traz todos os elementos do prompt, com boa composição e contraste."
+R01,p04,A,5,5,"Aderente ao estilo proposto, com boa composição e contraste."
+R01,p05,B,3,3,"A imagem B tem melhor aderência ao estilo e composição, mas não respeita a paleta de cores."
+R01,p06,B,5,5,"A imagem B tem melhor aderência ao estilo e composição, e paleta de cores respeitada."
+M01,p01,B,5,5,
+M01,p02,B,5,5,
+M01,p03,A,5,5,
+M01,p04,A,5,5,
+M01,p05,B,3,3,
+M01,p06,B,5,5,
+L01,p01,B,5,5,
+L01,p02,B,5,5,
+L01,p03,A,5,5,
+L01,p04,A,5,5,
+L01,p05,B,3,4,
+L01,p06,B,5,5,
+W01,p01,B,5,5,
+W01,p02,B,5,5,
+W01,p03,A,5,5,
+W01,p04,A,5,5,
+W01,p05,B,3,4,
+W01,p06,B,4,4,
+F01,p01,B,5,5,
+F01,p02,B,5,5,
+F01,p03,A,5,5,
+F01,p04,A,5,5,
+F01,p05,B,3,4,
+F01,p06,B,5,5,

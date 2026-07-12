@@ -1,0 +1,26 @@
+[
+  {
+    "theme": "lobo-guara entre capim dourado",
+    "status": "ok",
+    "latency_seconds": 35.086,
+    "prompt": "flpxilobr, lobo-guara entre capim dourado, composicao equilibrada do Cerrado, contornos pretos marcantes, alto contraste, hachuras artesanais e paleta reduzida em preto e marfim, xilogravura digital",
+    "image": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v3\\01_imagem.png",
+    "audio": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v3\\01_narracao.wav"
+  },
+  {
+    "theme": "seriema ao amanhecer no Cerrado",
+    "status": "ok",
+    "latency_seconds": 15.301,
+    "prompt": "flpxilobr, seriema ao amanhecer no Cerrado, composicao equilibrada do Cerrado, contornos pretos marcantes, alto contraste, hachuras artesanais e paleta reduzida em preto e marfim, xilogravura digital",
+    "image": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v3\\02_imagem.png",
+    "audio": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v3\\02_narracao.wav"
+  },
+  {
+    "theme": "flores de pequi e buritis",
+    "status": "ok",
+    "latency_seconds": 14.098,
+    "prompt": "flpxilobr, flores de pequi e buritis, composicao equilibrada do Cerrado, contornos pretos marcantes, alto contraste, hachuras artesanais e paleta reduzida em preto e marfim, xilogravura digital",
+    "image": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v3\\03_imagem.png",
+    "audio": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v3\\03_narracao.wav"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "theme": "lobo-guara entre capim dourado",
+    "status": "ok",
+    "latency_seconds": 35.848,
+    "prompt": "flpxilobr, Fluviante, lobo-guara se alinha entre capim dourado na floresta tropical. Com alta contrastância, o lobo-guara é destacado contra o verde dos capivários.",
+    "image": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v2\\01_imagem.png",
+    "audio": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v2\\01_narracao.wav"
+  },
+  {
+    "theme": "seriema ao amanhecer no Cerrado",
+    "status": "ok",
+    "latency_seconds": 14.353,
+    "prompt": "flpxilobr, Fluxo de luz brilhante, paisagismo natural, alta contrastância, hachuras digitais, círculo de luz central.",
+    "image": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v2\\02_imagem.png",
+    "audio": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v2\\02_narracao.wav"
+  },
+  {
+    "theme": "flores de pequi e buritis",
+    "status": "ok",
+    "latency_seconds": 12.968,
+    "prompt": "flpxilobr, Flowers of Pequin and Buritai, Digital Xoguing with High Contrast and Hatching Effects.",
+    "image": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v2\\03_imagem.png",
+    "audio": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke_v2\\03_narracao.wav"
+  }
+]
