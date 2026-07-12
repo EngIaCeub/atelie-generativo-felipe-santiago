@@ -19,6 +19,10 @@ Atualizado em: 2026-07-11
 
 Nenhum bloqueio tecnico local detectado pela validacao final. Para apresentacao ao vivo, permanece uma limitacao operacional: o Space em CPU Basic tem latencia alta; usar a contingencia local documentada se o tempo da banca for curto.
 
+## Nota sobre autoria e Git
+
+O projeto e **individual** e tem Felipe Santiago como unico responsavel academico. Caso o historico local do Git apresente outros logins em algum momento, isso deve ser interpretado como efeito de sessoes equivocadas do Git ou do ambiente local, e nao como colaboracao real de outros membros no projeto. A autoria academica, as decisoes e a revisao humana final permanecem atribuídas a Felipe Santiago.
+
 ## Proximo marco
 
 Revisao humana final do PDF e demonstracao: conferir visualmente o relatorio, abrir o Space antes da apresentacao e manter o plano B com evidencias offline.

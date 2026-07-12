@@ -14,7 +14,7 @@ A entrega academica final foi preparada e validada localmente. `scripts/validate
 | Avaliacao do modelo | 15% | atendido | `grade_comparativa.png`, `clipscore.csv`, `memorizacao.csv`, `avaliacao_humana.csv` | Amostra humana minima; casos medios de memorizacao exigem revisao visual | Felipe Santiago |
 | Pipeline e publicacao | 25% | atendido | `app/`, `space/`, Space publico, `space_teste_anonimo_2026-07-11.md` | Latencia alta em CPU Basic; usar contingencia local no Demo Day | Felipe Santiago |
 | Relatorio final | 15% | atendido | `relatorio/relatorio_final.md`, `relatorio/relatorio_final.pdf` | Revisao humana final de leitura ainda recomendada | Felipe Santiago |
-| Colaboracao e processo | 5% | parcial/atendido para equipe individual | historico Git, `docs/AI_ASSISTANCE.md`, `PROJECT_STATE.md` | Como equipe individual, nao ha distribuicao entre membros; commitar fechamento final antes da submissao | Felipe Santiago |
+| Colaboracao e processo | 5% | parcial/atendido para equipe individual | historico Git, `docs/AI_ASSISTANCE.md`, `PROJECT_STATE.md` | Como equipe individual, nao ha distribuicao entre membros; eventuais outros logins no Git local devem ser tratados como configuracao equivocada do ambiente, nao como coautoria academica | Felipe Santiago |
 
 ## Comandos executados
 
@@ -32,3 +32,4 @@ A entrega academica final foi preparada e validada localmente. `scripts/validate
 - A revisao visual inspecionou previews PNG das paginas 1, 4 e 7 e corrigiu bullets que apareciam como `?`.
 - O Space remoto tem evidencia de duas execucoes anonimas completas; uma terceira execucao remota nao foi declarada porque o navegador bloqueou a continuidade da sessao.
 - Nenhum valor de `HF_TOKEN` foi lido, exibido, salvo ou versionado.
+- O projeto e individual. Se surgirem outros logins no historico local do Git, isso deve ser interpretado como erro de sessao/identidade do ambiente local, e nao como participacao academica real de terceiros.

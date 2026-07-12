@@ -11,3 +11,7 @@
 | 2026-07-11 | Codex | Consolidacao de documentacao, relatorio, model card, auditoria final e plano de demo | `README.md`, `MODEL_CARD.md`, `relatorio/`, `resultados/auditorias/` | Felipe Santiago |
 
 A equipe permanece responsavel por codigo, dados, licencas, resultados, revisoes humanas, configuracao de secrets, interpretacao dos resultados e texto final entregue.
+
+## Nota sobre identidade no Git
+
+O projeto foi conduzido individualmente por Felipe Santiago. Se o historico local do Git registrar outros logins em algum ponto, isso decorre de sessoes equivocadas de identidade configuradas no ambiente local e nao representa participacao academica efetiva de outras pessoas. Para fins de entrega, a autoria, a responsabilidade e a revisao humana final permanecem com Felipe Santiago.

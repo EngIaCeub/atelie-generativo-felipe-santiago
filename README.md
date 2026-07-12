@@ -63,6 +63,8 @@ python -m pytest -q
 python -m ruff check scripts app tests
 ```
 
+Se o terminal do Windows estiver com codificacao legada, use `python -X utf8 scripts/project_status.py`.
+
 ## Limitacoes
 
 O Space em CPU Basic funciona, mas tem latencia alta para demonstracao ao vivo. O plano de contingencia usa `resultados/app_smoke_v3/`, a grade comparativa e os audios locais, sem apresentar esses artefatos como execucao ao vivo.

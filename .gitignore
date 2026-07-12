@@ -54,6 +54,9 @@ tmp/
 tmp_relatorio/
 .pytest-tmp-delivery/
 .pytest-tmp-local/
+.pytest-tmp-*/
 auditoria_sumarizacao_*.md
 resultados/demoday_huggingface/_deck_preview/
 *.inspect.ndjson
+sumarizacao_final/
+sumarizacao_final_backup/
