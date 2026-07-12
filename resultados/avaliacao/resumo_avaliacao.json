@@ -1,0 +1,17 @@
+{
+  "data": "2026-07-11T14:46:08.040208+00:00",
+  "selected_lora_config": "config_b",
+  "base_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "clip_model": "openai/clip-vit-base-patch16",
+  "generation_seed": 2026,
+  "prompts_file": "c:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\dados\\prompts_avaliacao.txt",
+  "comparison_grid": "c:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\avaliacao\\grade_comparativa.png",
+  "clipscore_csv": "c:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\avaliacao\\clipscore.csv",
+  "memorization_csv": "c:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\avaliacao\\memorizacao.csv",
+  "human_evaluation_status": "respostas_importadas_5_avaliadores_unicos",
+  "notes": [
+    "Nao interpretar CLIPScore isoladamente como qualidade final.",
+    "Revisar visualmente casos de memorizacao com maior similaridade.",
+    "Avaliacao humana registrada em avaliacao_humana.csv com 5 identificadores unicos."
+  ]
+}

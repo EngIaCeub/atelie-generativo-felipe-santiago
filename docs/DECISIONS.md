@@ -74,3 +74,26 @@ por humano antes da exportacao.
 - TTS final com português adequado e custo zero.
 - Estratégia de inferência de imagem no Space.
 - Licença do código.
+
+## ADR-012 - Backends locais reais para o app multimodal
+**Status:** aceita; smoke test local aprovado; publicacao remota pendente.
+**Decisao:** usar Qwen 2.5 0.5B para expansao de prompt, Stable Diffusion v1.5 com pesos `config_b` carregados explicitamente e MMS-TTS em portugues.
+**Motivo:** preserva o contrato LLM -> LoRA -> TTS sem assumir que uma API de inferencia remota aceita ou aplica um adaptador LoRA. Os modelos carregam apenas na primeira solicitacao e o token, quando necessario, continua restrito ao ambiente. A resposta do LLM passa por validacao estrutural com fallback para manter tema, portugues e o token de estilo.
+
+## ADR-013 - Entrega academica final baseada em evidencias
+**Status:** aceita.
+**Decisao:** consolidar a entrega em `relatorio/relatorio_final.md`, exportar `relatorio/relatorio_final.pdf`, atualizar README, model card local, declaracao de uso de IA e auditoria final.
+**Motivo:** o barema exige relatorio final, reflexao etica, links/evidencias verificaveis e demonstracao preparada. O PDF foi gerado localmente porque o ambiente nao tinha `reportlab`, `pandoc` ou `pdftoppm`; a revisao visual foi feita por previews PNG gerados com Pillow.
+
+## ADR-014 - Codigo sem licenca aberta definida
+**Status:** aceita.
+**Decisao:** nao atribuir uma licenca aberta ao codigo nesta entrega; o README registra que reutilizacao externa deve pedir autorizacao ao autor ate decisao posterior.
+**Motivo:** nao havia decisao humana explicita sobre MIT, Apache, GPL ou outra licenca. As licencas das imagens continuam separadas e registradas em `dados/fontes.csv`.
+
+## Atualizacao das pendencias - 2026-07-11
+As pendencias antigas de TTS final e estrategia de inferencia no Space foram resolvidas por ADR-012 e pela publicacao registrada em `resultados/auditorias/space_teste_anonimo_2026-07-11.md`. A licenca do codigo permanece sem licenca aberta definida, conforme ADR-014.
+
+## ADR-015 - Confirmacao de entrega individual e rastreabilidade historica
+**Status:** aceita.
+**Decisao:** a entrega academica atual e individual, sob responsabilidade de Felipe Santiago. Os commits historicos existentes com outros identificadores Git permanecem preservados, sem reatribuicao ou reescrita de historico.
+**Motivo:** `config/project.json` registra somente Felipe Santiago como membro e responsavel por todas as frentes. A consolidacao final sera commitada com a identidade Git configurada pelo responsavel, preservando a rastreabilidade factual do repositorio.

@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import sys
 from collections.abc import Iterable
 from dataclasses import asdict, dataclass
 from pathlib import Path
@@ -281,7 +282,14 @@ def stage_ok(checks: Iterable[Check]) -> bool:
     return all(check.ok for check in checks)
 
 
-def main() -> int:
+def status_symbol(ok: bool) -> str:
+    encoding = (sys.stdout.encoding or "").lower()
+    if "utf" in encoding:
+        return "✓" if ok else "✗"
+    return "OK" if ok else "X"
+
+
+def _legacy_main() -> int:
     parser = argparse.ArgumentParser(description="Mostra o estado verificável do projeto.")
     parser.add_argument("--root", type=Path, default=Path.cwd())
     parser.add_argument("--json", action="store_true")
@@ -295,6 +303,24 @@ def main() -> int:
         print(f"\n[{mark}] {stage}")
         for check in checks:
             symbol = "✓" if check.ok else "✗"
+            print(f"  {symbol} {check.key}: {check.message}")
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Mostra o estado verificavel do projeto.")
+    parser.add_argument("--root", type=Path, default=Path.cwd())
+    parser.add_argument("--json", action="store_true")
+    args = parser.parse_args()
+    result = collect(args.root.resolve())
+    if args.json:
+        print(json.dumps({k: [asdict(c) for c in v] for k, v in result.items()}, ensure_ascii=False, indent=2))
+        return 0
+    for stage, checks in result.items():
+        mark = "OK" if stage_ok(checks) else "PENDENTE"
+        print(f"\n[{mark}] {stage}")
+        for check in checks:
+            symbol = status_symbol(check.ok)
             print(f"  {symbol} {check.key}: {check.message}")
     return 0
 

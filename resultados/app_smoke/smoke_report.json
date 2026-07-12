@@ -1,0 +1,26 @@
+[
+  {
+    "theme": "lobo-guara entre capim dourado",
+    "status": "ok",
+    "latency_seconds": 54.294,
+    "prompt": "flpxilobr, Aqui está uma visão visual do tema \"Lobo-Guara entre Capim Dourado\":\n\n1. **Corteção**: O lobo-Guara é cortado com cuidado, deixando apenas o corpo e os pés. A capa externa é pintada de um azul claro, refletindo a luz solar.\n\n2. **Pintura**: Os pés são pintados de um verde escura, refletindo o brilho da",
+    "image": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke\\01_imagem.png",
+    "audio": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke\\01_narracao.wav"
+  },
+  {
+    "theme": "seriema ao amanhecer no Cerrado",
+    "status": "ok",
+    "latency_seconds": 25.15,
+    "prompt": "flpxilobr, Aqui está uma visão visual que combina elementos do Cerrado com o tema da sunrise:\n\n1. **Cenário**: Um panorama panorâmico do Cerrado, onde as florestas estão em alta, cobertas por um céu azul profundo.\n\n2. **Alto Contraste**: O céu é brilhante, com tons de vermelho e laranja, enquanto a terra parece ser mais clara e fresca.\n\n3.",
+    "image": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke\\02_imagem.png",
+    "audio": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke\\02_narracao.wav"
+  },
+  {
+    "theme": "flores de pequi e buritis",
+    "status": "ok",
+    "latency_seconds": 24.388,
+    "prompt": "flpxilobr, Aqui está uma visão visual do tema \"Flores de Pequi e Buritis\":\n\n1. **Câmara**: Uma câmera apontando para o céu, com a luz do sol brilhante.\n\n2. **Pequim**: Um pequeno jardim ao fundo, onde as flores de pequi se destacam como cores vibrantes e claras.\n\n3. **Buritíssimo**: Os buritis, que são folhas",
+    "image": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke\\03_imagem.png",
+    "audio": "C:\\Users\\felip\\OneDrive\\Documentos\\Engenharia de Inteligência Artificial\\Modelos Multimodais\\sistematizacao\\atelie-generativo-felipe-santiago\\resultados\\app_smoke\\03_narracao.wav"
+  }
+]

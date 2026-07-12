@@ -1,70 +1,74 @@
-# Ateliê Generativo — Felipe Santiago
+# Atelie Generativo - Felipe Santiago
 
-Projeto da disciplina **Inteligência Artificial Generativa e Modelos Multimodais**: especialização de
-Stable Diffusion com LoRA em um estilo visual próprio, avaliação base × LoRA e aplicação web multimodal
-LLM → imagem → voz no Hugging Face Spaces.
+Projeto da disciplina **Inteligencia Artificial Generativa e Modelos Multimodais**. O sistema recebe um tema curto do Cerrado, expande o tema com um LLM, gera imagem com Stable Diffusion v1.5 + LoRA no estilo `flpxilobr` e narra a descricao com TTS em portugues.
 
-## Situação
-O repositório e o token Hugging Face já existem. O token permanece fora do Git. A arquitetura foi
-preparada para execução assistida/autônoma pelo Codex, com portões humanos explícitos para decisões,
-revisão de captions, avaliação humana e publicação.
+## Links
 
-Consulte `PROJECT_STATE.md` para o estado real e os próximos bloqueios.
+- Space publico: https://huggingface.co/spaces/RalphError/atelie-xilogravura-cerrado
+- App: https://ralpherror-atelie-xilogravura-cerrado.hf.space
+- LoRA publicado: https://huggingface.co/RalphError/flpxilobr-lora
+- Modelo base: `stable-diffusion-v1-5/stable-diffusion-v1-5`
+- LoRA configurado no projeto: `RalphError/flpxilobr-lora`
 
-## Inicialização
-```bash
-python scripts/bootstrap_project.py
-python scripts/project_status.py
-python scripts/validate_project.py --stage bootstrap
-```
+## Estado
 
-No PowerShell, disponibilize o token apenas na sessão em que for necessário:
+Bootstrap, dataset, treino LoRA, avaliacao, app local e publicacao do Space foram validados com evidencias em `resultados/`. A entrega final fica concentrada em `relatorio/relatorio_final.pdf`, gerado a partir de `relatorio/relatorio_final.md`.
+
+## Execucao local do app
+
+Use o ambiente com as dependencias instaladas e rode:
+
 ```powershell
-$env:HF_TOKEN = "<cole-o-localmente>"
+python -m app.app
 ```
-Nunca grave o valor em `.env`, notebook, README, issue, log ou commit. No Hugging Face Space, use
-**Settings → Variables and secrets**.
 
-## Iniciar o Codex
-Abra o Codex na raiz do repositório e use o prompt de `START_CODEX.md`. O Codex carregará `AGENTS.md`,
-as skills em `.agents/skills/` e, quando solicitado, os subagentes em `.codex/agents/`.
+Os pesos LoRA locais usados por padrao ficam em:
+
+```text
+resultados/treino/local/config_b/pytorch_lora_weights.safetensors
+```
+
+Na primeira execucao, os modelos podem ser baixados e carregados sob demanda. Em CPU a inferencia e lenta; em GPU local o smoke test final registrou tres fluxos completos em `resultados/app_smoke_v3/`.
 
 ## Estrutura
+
 ```text
-.
-├── AGENTS.md                  # mapa permanente de comportamento do Codex
-├── PLANS.md                   # padrão de planos executáveis
-├── PROJECT_STATE.md           # estado, bloqueios e próximo marco
-├── .agents/skills/            # workflows reutilizáveis
-├── .codex/agents/             # subagentes especializados
-├── config/project.json        # configuração sem segredos
-├── docs/                      # requisitos, arquitetura, decisões e runbooks
-├── dados/                     # imagens, proveniência e captions
-├── notebooks/                 # dataset, treino e avaliação
-├── app/                       # aplicação Gradio modular
-├── resultados/                # evidências versionáveis
-├── relatorio/                 # fonte do relatório e PDF final
-├── scripts/                   # bootstrap, status, validação e segurança
-└── tests/                     # testes dos guardrails e utilitários
+dados/        imagens, fontes, captions e metadata
+notebooks/    dataset, treino LoRA e avaliacao
+app/          pipeline Gradio e provedores reais
+resultados/   evidencias, metricas, auditorias e smoke tests
+relatorio/    relatorio final em Markdown e PDF
+scripts/      validacao, publicacao e seguranca
+docs/         requisitos, arquitetura, decisoes e runbooks
 ```
 
-## Marcos acadêmicos
-1. Proposta e organização.
-2. Dataset com 20–40 imagens licenciadas e captions revisadas.
-3. Duas configurações LoRA reproduzíveis e pesos no Hub.
-4. Grade base × LoRA, CLIPScore, memorização e avaliação humana cega.
-5. Pipeline multimodal em Space público e seguro.
-6. Relatório final, reflexão ética e Demo Day.
+## Evidencias principais
 
-## Comandos de qualidade
-```bash
+- Dataset: `dados/fontes.csv`, `dados/legendas.txt`, `dados/metadata.jsonl`
+- Treino: `resultados/treino/experimentos.csv`
+- Avaliacao: `resultados/avaliacao/grade_comparativa.png`, `clipscore.csv`, `memorizacao.csv`, `avaliacao_humana.csv`
+- App: `resultados/app_smoke_v3/smoke_report.json`
+- Publicacao: `resultados/auditorias/space_teste_anonimo_2026-07-11.md`
+- Relatorio: `relatorio/relatorio_final.pdf`
+
+## Seguranca
+
+Nunca grave o valor de `HF_TOKEN` em arquivos. Use apenas variavel de ambiente local ou Secrets do Hugging Face Space. Para verificar o repositorio:
+
+```powershell
 python scripts/check_secrets.py
 python scripts/project_status.py
-python scripts/validate_project.py --stage <bootstrap|dataset|training|evaluation|publication|final>
+python scripts/validate_project.py --stage final
 python -m pytest -q
 python -m ruff check scripts app tests
 ```
 
-## Licença e atribuições
-A licença do código será definida em decisão registrada antes da publicação final. As licenças e
-atribuições das imagens ficam em `dados/fontes.csv` e não se confundem com a licença do código.
+Se o terminal do Windows estiver com codificacao legada, use `python -X utf8 scripts/project_status.py`.
+
+## Limitacoes
+
+O Space em CPU Basic funciona, mas tem latencia alta para demonstracao ao vivo. O plano de contingencia usa `resultados/app_smoke_v3/`, a grade comparativa e os audios locais, sem apresentar esses artefatos como execucao ao vivo.
+
+## Licencas e atribuicoes
+
+As imagens do dataset usam licencas CC-BY-SA registradas em `dados/fontes.csv`. O codigo do projeto esta sem licenca aberta definida; reutilizacao externa deve pedir autorizacao ao autor ate que uma licenca de codigo seja registrada.
